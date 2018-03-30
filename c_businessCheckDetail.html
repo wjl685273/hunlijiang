@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户基本资料审核</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/cm/magnifier.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/cm/c_businessCheckDetail.css">
+</head>
+<body>
+		<div class="box">
+		<!-- nav -->
+		<div class="nav">
+			<div class="nav_top">商家后台</div>
+			<ul class="nav_cont">
+				<li>
+					<i></i>
+					<div class="nav_cont_a nav_cont_off person">
+						<a>人员审核</a>
+					</div>
+				</li>
+				<li>
+					<i></i>
+					<div class="nav_cont_a nav_cont_off merchant">
+						<a>用户基本资料审核</a>
+					</div>
+				</li>
+				<li>
+					<i></i>
+					<div class="nav_cont_a nav_cont_off hotel">
+						<a>上传酒店信息</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- header -->
+		<div class="header">
+			<div class="Return_index">
+				<a href="index.html"><p>返回首页</p></a>
+			</div>
+			<div class="header_name">
+				<p>用户名：<span class="h_name"></span></p>
+			</div>
+			<div class="sign_out">
+				<p>退出登录</p>
+			</div>
+		</div>
+		<!-- content -->
+		<div class="content">
+			<div class="container">
+				<div class="p_title"><i></i>基本资料上传</div>
+				<div class="personItems">
+					<!-- 商户名称 -->
+					<div class="p_name">
+						<div class="add_type_title">商户名称</div>
+						<input type="text" name="pname" class="add_type_name" maxlength="16" readonly="true">
+					</div>
+					<!-- 商户类型 -->
+					<div class="p_name">
+						<div class="add_type_title">商户类型</div>
+						<input type="text" name="ptype" class="add_type_name" maxlength="16" readonly="true">
+					</div>
+					<!-- 公司地址 -->
+					<div class="p_name">
+						<div class="add_type_title">公司地址</div>
+						<input type="text" name="paddress" class="add_type_name" maxlength="16" readonly="true">
+					</div>
+					<!-- 详细地址 -->
+					<!-- <div class="p_name">
+						<div class="add_type_title">详细地址</div>
+						<input type="text" name="pdetailaddr" class="add_type_name" maxlength="16" readonly="true">
+					</div> -->
+					<!-- 联系电话 -->
+					<div class="p_name">
+						<div class="add_type_title">联系电话</div>
+						<input type="text" name="ptel" class="add_type_name" maxlength="16" readonly="true">
+					</div>
+					<!-- 营业执照名称 -->
+					<div class="p_name">
+						<div class="add_type_title">营业照名称</div>
+						<input type="text" name="psalecard" class="add_type_name" maxlength="16" readonly="true">
+					</div>
+					<!-- 执照编码 -->
+					<div class="p_name">
+						<div class="add_type_title">执照编码</div>
+						<input type="text" name="psalecode" class="add_type_name" maxlength="16" readonly="true">
+					</div>
+					<!-- 上传执照 -->
+					<!-- <div class="p_name">
+						<div class="add_type_title">上传执照</div>
+						<div class="p_picture"></div>
+					</div> -->
+					<!-- 身份证名称 -->
+					<div class="p_name">
+						<div class="add_type_title">身份证名称</div>
+						<input type="text" name="ppersonname" class="add_type_name" maxlength="16" readonly="true">
+					</div>
+					<!-- 身份证号 -->
+					<div class="p_name">
+						<div class="add_type_title">身份证号</div>
+						<input type="text" name="pIDcard" class="add_type_name" maxlength="16" readonly="true">
+					</div>
+					<!-- 上传身份证 上传执照-->
+					<div class="p_name">
+						<div class="add_type_title">上传图片</div>
+						<div class="pictures">
+							<div class="magnifier" id="magnifier1">
+								<div class="magnifier-container">
+									<div class="images-cover"></div>
+									<!--当前图片显示容器-->
+									<div class="move-view"></div>
+									<!--跟随鼠标移动的盒子-->
+								</div>
+								<div class="magnifier-assembly">
+									<div class="magnifier-btn">
+										<!-- <span class="magnifier-btn-left">&lt;</span>
+										<span class="magnifier-btn-right">&gt;</span> -->
+									</div>
+									<!--按钮组-->
+									<div class="magnifier-line">
+										<ul class="clearfix animation03">
+											<!--  <li>
+												<div class="small-img">
+													<img src="images/1.png" />
+												</div>
+											</li>
+											<li>
+												<div class="small-img">
+													<img src="images/2.png" />
+												</div>
+											</li>
+											<li>
+												<div class="small-img">
+													<img src="images/3.png" />
+												</div>
+											</li>
+											<li>
+												<div class="small-img">
+													<img src="images/4.png" />
+												</div>
+											</li>
+											<li>
+												<div class="small-img">
+													<img src="images/1.png" />
+												</div>
+											</li> --> -->
+										</ul>
+									</div>
+									<!--缩略图-->
+								</div>
+								<div class="magnifier-view"></div>
+								<!--经过放大的图片显示容器-->
+							</div>
+						
+						</div>
+					</div>
+					<!-- 审核结果 -->
+					<div class="p_result">
+						<div class="confirm">通过</div>
+						<div class="cancel">未通过</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	<!-- <div class="showBigPic"></div> -->
+	</div>
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/cm/c_businessCheckDetail.js"></script>
+	<script type="text/javascript">
+		$(function() {
+	
+			var magnifierConfig = {
+				magnifier : "#magnifier1",//最外层的大容器
+				width : 500,//承载容器宽
+				height : 500,//承载容器高
+				moveWidth : null,//如果设置了移动盒子的宽度，则不计算缩放比例
+				zoom : 5//缩放比例
+			};
+
+			var _magnifier = magnifier(magnifierConfig);
+
+			/*magnifier的内置函数调用*/
+			/*
+				//设置magnifier函数的index属性
+				_magnifier.setIndex(1);
+
+				//重新载入主图,根据magnifier函数的index属性
+				_magnifier.eqImg();
+			*/
+		});
+	</script>
+
+	<script type="text/javascript" src="js/cm/magnifier.js"></script>
+</body>
+</html>

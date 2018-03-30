@@ -1,0 +1,307 @@
+/*------标题-------*/
+.title {
+  width: 900px;
+  margin-left: auto;
+  margin-right: 150px;
+  padding-bottom: 150px;
+}
+
+.title_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.title_left {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.title_right {
+  width: 750px;
+  height: 18px;
+  border-bottom: 1px solid #f1959f;
+}
+
+.title_left > i {
+  width: 3px;
+  height: 18px;
+  background: #eb5162;
+}
+
+.title_left > p {
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+.title_left span {
+  font-size: 12px;
+}
+
+/*----内容----*/
+
+.main {
+  width: 750px;
+  margin-left: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: flex;
+  -ms-flex-pack: flex;
+  justify-content: flex;
+}
+
+.main_left {
+  width: 110px;
+}
+
+.main_left p {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  height: 53px;
+  margin-bottom: 36px;
+  line-height: 53px;
+  color: #6a717c;
+  font-size: 16px;
+}
+
+.main_left_p {
+  margin-top: 100px;
+}
+
+.main_cont {
+  width: 610px;
+}
+
+.main_cont_h1 {
+  font-size: 48px;
+  text-align: center;
+  color: #6a717c;
+  line-height: 2em;
+}
+
+.main_cont form > div {
+  margin-bottom: 36px;
+  height: 53px;
+}
+
+/*--输入框--*/
+
+.input_shadow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: flex;
+  -ms-flex-pack: flex;
+  justify-content: flex;
+  -webkit-box-shadow: 0 0 5px #eee;
+  box-shadow: 0 0 5px #eee;
+}
+
+.main_bian {
+  display: inline-block;
+  width: 9px;
+  height: 53px;
+  background: #f85162;
+}
+
+.main_cont input {
+  width: 100%;
+  height: 53px;
+  border: 1px solid #ededee;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-left: none;
+  font-size: 16px;
+  color: #6a717c;
+  padding: 0 14px;
+}
+
+/*--下拉框--*/
+
+.input_Drop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.input_Drop select {
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.Upload {
+  width: 325px;
+  height: 56px;
+  background: #f85162;
+  text-align: center;
+  line-height: 56px;
+  color: #fff;
+  font-size: 26px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/*--商品尺寸--*/
+.input_Drop input {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #999;
+  text-align: center;
+  margin: 5px;
+}
+
+/*商品属性*/
+.input_Drop input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  padding: 0 !important;
+  border: none;
+}
+
+.input_Drop > p {
+  margin: 0 5px;
+}
+
+.input_Drop .input_Attributes {
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+}
+
+.input_Doot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.input_Doot input {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #999;
+  padding: 0 3px;
+  text-align: center;
+  margin: 5px;
+}
+
+.main_cont .input_textarea {
+  height: 150px;
+}
+
+.input_textarea textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*图片上传*/
+.upload_img_Choice {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed #999;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.upload_imgc_show {
+  width: 100%;
+  height: 100%;
+  background: url(../../images/Posttask_img.png) no-repeat center 10px;
+  background-size: 40px 40px;
+}
+
+.upload_imgc_show p {
+  padding-top: 55px;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.upload_img_Choice input {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/*上传图片预览框*/
+.images_box {
+  height: 100px !important;
+}
+
+.input_SCTP,
+.upload_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_file {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-right: 15px;
+  position: relative;
+  border: 1px dashed #999;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.show {
+  width: 100%;
+  height: 100%;
+}
+
+.show img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+
+.main_file_hide {
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  bottom: -25px;
+  left: 0;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  line-height: 25px;
+  color: #333;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.main_file:hover .main_file_hide {
+  bottom: 0;
+}

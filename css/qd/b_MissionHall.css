@@ -1,0 +1,580 @@
+/*导航栏*/
+.main_nav{
+  width: 100%;
+  height: 35px;
+  background: #f85162;
+  line-height: 35px;
+  font-size: 16px;
+  color: #fff;
+  margin: 35px 0 60px 0;
+}
+
+
+.mian_nav_cont{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main_center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*banner*/
+.main01 {
+  width: 1200px;
+  margin: -40px auto 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.mian01_left {
+  width: 256px;
+  height: 500px;
+  overflow: hidden;
+  background: #fff;
+  border: 2px solid #ededee;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mian01_left a:hover {
+  text-decoration: none;
+}
+
+.main01_but {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 15px;
+  background: #ccc;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.main01_cont {
+  height: 470px;
+}
+
+.main01_cont > div {
+  height: 70px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  padding: 0 14px;
+}
+
+.main01_x10 {
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.main01_x10 span {
+  color: #f87851;
+  margin-right: 10px;
+}
+
+.main01_x20 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #b2b2b2;
+}
+
+/*banner*/
+.banner {
+  width: 651px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.banner div {
+  overflow: hidden;
+  background: #fff;
+}
+
+.banner img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.banner_01 {
+  width: 651px;
+  height: 308px;
+}
+
+.banner_02 {
+  width: 200px;
+  height: 180px;
+}
+
+/*发布任务*/
+.main01_right {
+  width: 244px;
+  height: 100%;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  border:2px solid #ededee;
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+}
+
+.main01_right_cont {
+  width: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 308px;
+}
+
+.main01_right_cont > div {
+  width: 80px;
+  height: 140px;
+  text-align: center;
+  margin: 15px 15px 0 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main01_right_cont > div p {
+  font-size: 20px;
+  color: #808080;
+  margin-top: 33px;
+}
+
+.main01_right_cont > div > div {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.main01_right_but {
+  width: 100%;
+  height: 180px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main01_right_but a:hover {
+  text-decoration: none;
+}
+
+.main01_right_bg {
+  height: 47px;
+  background: url(../../images/b_MissionHall/trig.png);
+}
+
+.main01_right_onbut {
+  background: #f85162;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 4px;
+  padding: 20px 0 23px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*标题*/
+.main_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.main_title>div{
+  border-left:8px solid #f85162; 
+  height: 40px;
+  width: 8px;
+}
+.main_title p {
+  font-size: 22px;
+  color: #333;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.main_title div {
+  margin-right: 15px;
+}
+
+/*内容*/
+.main02 {
+  /*background: #f5dcde;*/
+  /*width: 1200px;*/
+}
+
+.main02_anti {
+  /*background: #f4f4f4;*/
+}
+
+.main02 a:hover {
+  text-decoration: none;
+}
+
+.main02_anti a:hover {
+  text-decoration: none;
+}
+
+.main02_cont {
+  height: 508px;
+  padding-bottom: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main02_left {
+  width: 256px;
+  height: 100%;
+  padding: 310px 0 0 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main02_left h1 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1em;
+}
+
+.main02_left p {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1em;
+}
+
+.main02_left div {
+  width: 107px;
+  height: 32px;
+  background: #f85162 url(../../images/b_MissionHall/triggle.png) no-repeat 90%
+    center;
+  font-size: 16px;
+  color: #fff;
+  line-height: 32px;
+  margin-top: 10px;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.main02_left_bg01 {
+  background: url(../../images/b_MissionHall/first.png) no-repeat 45px 30px;
+  border: 2px solid #ededee;
+}
+
+.main02_left_bg01 h1 {
+  color: #666;
+}
+
+.main02_left_bg01 p {
+  color: #666;
+}
+
+.main02_left_bg02 {
+  background: url(../../images/b_MissionHall/second.png) no-repeat 40px 64px;
+  border: 2px solid #ededee;
+}
+
+.main02_left_bg02 h1 {
+  color: #666;
+}
+
+.main02_left_bg02 p {
+  color: #666;
+}
+
+.main02_left_bg03 {
+  background: url(../../images/b_MissionHall/third.png) no-repeat 40px 55px;
+  border: 2px solid #ededee;
+}
+
+.main02_left_bg03 h1 {
+  color: #666;
+}
+
+.main02_left_bg03 p {
+  color: #666;
+}
+
+.main02_left_bg04 {
+  background: url(../../images/b_MissionHall/fourth.png) no-repeat 28px 58px;
+  border: 2px solid #ededee;
+}
+
+.main02_left_bg04 h1 {
+  color: #666;
+}
+
+.main02_left_bg04 p {
+  color: #666;
+}
+
+/*商家内容*/
+.main02_right {
+  width: 914px;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+}
+
+.main02_right_01 {
+  width: 210px;
+  height: 330px;
+}
+
+.main02_right_01 div {
+  height: 280px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.main02_right_01 div img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.main02_right_01:hover div img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.main02_right_01 p {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background: #fff;
+  padding: 0 10px;
+  color: #666;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border: 3px solid #ededee;
+  border-top: none;
+  font-size: 14px;
+  color: #666;
+  font-weight: 700;
+}
+
+.main02_right_01 p span {
+  color: #f67957;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.main02_right_02 {
+  width: 651px;
+  height: 468px;
+}
+
+.main02_right_02 div {
+  width: 100%;
+  height: 418px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.main02_right_02 div img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.main02_right_02:hover div img {
+  opacity: 0.8;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.main02_right_02 p {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  line-height: 50px;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main02_right_02 p span {
+  margin-right: 15px;
+}
+
+.main02_right_02 .x10 {
+  background: #f85162;
+  color: #fff;
+  text-align: center;
+}
+
+.main02_right_02 .x20 {
+  background: #f85162;
+  color: #fff;
+  text-align: center;
+}
+
+.main02_right_03 {
+  width: 232px;
+  height: 146px;
+  overflow: hidden;
+}
+
+.main02_right_03 div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.main02_right_03 img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.main02_right_03 p {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 30px;
+  color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.main02_right_03:hover p {
+  bottom: 0;
+}
+
+.main02_right_03:hover img {
+  opacity: 0.8;
+}
+
+.main02_right_04 {
+  width: 232px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/*广告*/
+.main02_ad_01 {
+  width: 914px;
+  height: 120px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.main02_ad_01 img {
+  width: 100%;
+  height: 100%;
+}
+
+.main02_ad_02 {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.main02_ad_02 div {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.main02_ad_02 div img {
+  width: 100%;
+  height: 100%;
+}

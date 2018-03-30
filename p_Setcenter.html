@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>设置中心</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/pm/p_Setcenter.css">
+	<link rel="stylesheet" href="css/hq/h_common.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 导航栏 -->
+		<div class="nav">
+		</div>
+
+		<!-- 头部 -->
+		<header>
+		</header>
+		<!-- 内容 -->
+		<div class="title">
+			<!-- 标题 -->
+			<div class="title_cont">
+				<div class="title_left">
+					<i></i>
+					<p>设置中心</p>
+				</div>
+				<div class="title_right"></div>
+			</div>
+
+			<!-- 内容 -->
+			<div class="main">
+				<div class="main_left">
+					<p>名称</p>
+					<p>地址</p>
+					<p>详细地址</p>
+					<p>负责人电话</p>
+					<p class="main_left_x10">LOGO</p>
+					<p class="main_left_x10">团队简介</p>
+				</div>
+				<div class="main_cont">
+					<form id="uploadForm" enctype="multipart/form-data" method="post">
+						<!-- 公司名称 -->
+						<div class="input_shadow">
+							<i class="main_bian"></i>
+							<p class="cp_name">人员经营使用名称</p>
+						</div>
+						<!-- 城市 -->
+						<div class="input_Drop">
+							<select class="select" name="province" id="s1">
+								<option>四川省</option>
+							</select>
+							<select class="select" name="city" id="s2">
+								<option>成都市</option>
+							</select>
+							<select class="select" name="county" id="s3">
+								<option>金牛区</option>
+								<option>锦江区</option>
+								<option>青羊区</option>
+								<option>武侯区</option>
+								<option>成华区</option>
+								<option>龙泉驿区</option>
+								<option>青白江区</option>
+								<option>新都区</option>
+								<option>温江区</option>
+								<option>双流区</option>
+								<option>郫县区</option>
+								<option>金堂县</option>
+								<option>大邑县</option>
+								<option>浦江县</option>
+								<option>新津县</option>
+								<option>都江堰</option>
+							</select>
+						</div>
+						<!-- 详细地址 -->
+						<div class="input_shadow">
+							<i class="main_bian"></i>
+							<input name="address" type="text" placeholder="详细地址">
+						</div>
+						<!-- 负责人电话 -->
+						<div class="input_shadow">
+							<i class="main_bian"></i>
+							<input name="phone" type="text" >
+						</div>
+						<!-- 商户头像 -->
+						<div class="input_SCTP">
+							<div class="main_file">
+								<a href='javascript:void(0);' class="blueButton"></a>
+						        <div class="show_01 show"></div>
+						        <input type="file" name="imgFile" class="myFileUpload_01 myFileUpload">
+							</div>
+						</div>
+						<!-- 团队简介 -->
+						<div class="input_textarea">
+							<textarea name="desc" class="mDesc" maxlength="255" placeholder="请填写团队简介,控制在255个字符内哦"></textarea>
+						</div>
+						<!-- 用户名隐藏域 -->
+						<div class="hide">
+							<input type="text" name="username" id="username">
+						</div>
+						<!-- 上传按钮 -->
+						<div class="Upload">上传</div>
+					</form>
+				</div>	
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hq/h_common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/pm/p_Setcenter.js"></script>
+</body>
+</html>

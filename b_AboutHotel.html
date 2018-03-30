@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>酒店信息</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/qd/b_AboutHotel.css">
+	<link rel="stylesheet" href="css/tf_common.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 头部 -->
+		<header>
+		</header>
+		<!-- 内容导航栏 -->
+		<div class="main_nav">
+			<ul class="main_nav_cont">
+				<li class="main_nav01 main_nav_on">星级</li>
+				<li class="datePrice price">
+					<span>价格</span>
+					<div class="datePrice_x10 price_x10">
+						<div class="datePrice_x20 price_x20">
+							<p>从低到高</p>
+							<p>从高到低</p>
+						</div>
+					</div>
+				</li>
+				<li class="main_nav_bg">
+					<span>地区</span>
+					<div class="main_nav_x10">
+						<div class="main_nav_x20">
+							<p>全部</p>
+							<p>锦江区</p>
+							<p>青羊区</p>
+							<p>金牛区</p>
+							<p>武侯区</p>
+							<p>成华区</p>
+							<p>龙泉驿区</p>
+							<p>青白江区</p>
+							<p>新都区</p>
+							<p>温江区</p>
+							<p>双流区</p>
+							<p>郫县区</p>
+							<p>金堂县</p>
+							<p>大邑县</p>
+							<p>浦江县</p>
+							<p>新津县</p>
+							<p>都江堰</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 内容 -->
+		<div class="main">
+			<div class="h_items">
+				<div class="h_item01 img_auto" style="background-image: url(images/b_AboutHotel/test.png)"></div>
+				<div class="h_item02">
+					<p class="h_name">成都喜来登大酒店</p>
+					<div class="h_address">就职于哪个公司公司地址某某路某某号</div>
+					<div>
+						<div class="h_base">酒店基本信息</div>
+						<div class="h_base_content">成都天府丽都喜来登饭店紧邻天府广场、省市政府、交通成都天府丽都喜来登饭店紧邻天府广场、省市政府、交通便利，是五星级国际商务酒店。部分客房可以直接观赏体育中心重大体育赛事和大型演唱会。2005年及2010年2005年及2010年2005年及2010年
+						</div>
+					</div>
+					<div>
+						<div class="h_price">价格</div>
+						<div class="h_price_content">3000-8000</div>
+					</div>
+					<div class="h_detail_button">查看详情</div>
+				</div>
+			</div>
+			<!-- 分页条 -->
+			<div class="main_Pagination"></div>
+		</div>
+		<!-- 底部 -->
+		<footer>
+		</footer>
+			
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/tf_common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/paging.js"></script>
+	<script type="text/javascript" src="js/qd/b_AboutHotel.js"></script>
+	<script>
+		$('.main_Pagination').paging({
+		            initPageNo: 1, // 初始页码
+		            totalPages: 11, //总页数
+		            // totalCount: '合计' + 5 + '条数据', // 条目总数
+		            slideSpeed: 600, // 缓动速度。单位毫秒
+		            jump: true, //是否支持跳转
+		            callback: function(page) {}
+		        })
+	</script>
+</body>
+</html>
+
+

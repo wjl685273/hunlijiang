@@ -1,0 +1,254 @@
+/*------标题-------*/
+.title {
+  width: 1100px;
+  margin: 0 0 0 auto;
+}
+
+.title_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.title_left {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.title_right {
+  width: 100%;
+  height: 18px;
+  border-bottom: 1px solid #f1959f;
+}
+
+.title_left > i {
+  width: 3px;
+  height: 18px;
+  background: #eb5162;
+}
+
+.title_left > p {
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+/*--查询--*/
+
+.Inquire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.Inquire_01,
+.Inquire_02,
+.Inquire_03 {
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  color: #626262;
+  margin-right: 30px;
+}
+
+.Inquire input {
+  border: 1px solid #d6d6d6;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 2px;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+}
+
+.Inquire_01 input {
+  width: 140px;
+}
+
+.Inquire > div > span {
+  margin-right: 18px;
+}
+
+.Inquire_03 input {
+  width: 84px;
+}
+
+.Inquire_03 i {
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  background: #9f9f9f;
+  margin: 0 10px;
+}
+
+.but_Inquire {
+  width: 70px;
+  height: 27px;
+  background: #f85162;
+  border-radius: 2px;
+  line-height: 27px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+
+.but_Inquire:active {
+  opacity: 0.8;
+}
+
+/*--商品展示--*/
+.Show {
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+  padding-bottom: 200px;
+}
+
+.Show_03{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#btnCheckAll{
+  margin-right: 3px;
+}
+/*--多选编辑区--*/
+.Show_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.Show_top > div {
+  width: 70px;
+  height: 26px;
+  background: #f85162;
+  color: #fff;
+  border-radius: 2px;
+  margin-left: 15px;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* .Show_top > .Show_Addto{
+  background: #f85162;
+} */
+
+.Show_top > div:active {
+  opacity: 0.8;
+}
+
+/*--信息标题--*/
+.Show_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 100%;
+  height: 30px;
+  background: #e5e5e5;
+}
+
+.Show_title > div {
+  text-align: center;
+  width: 70px;
+}
+
+.Show_title > div:last-child {
+  width: 110px;
+}
+
+/*--商品详情--*/
+.Show_Order {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 6px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.Show_Order > div {
+  text-align: center;
+  width: 70px;
+}
+
+.Show_Order > div:last-child {
+  width: 110px;
+}
+
+.Show_img {
+  display: inline-block;
+  padding: 1px;
+  border: 1px solid #ddd;
+}
+
+.Show_img > img {
+  width: 40px;
+  height: 40px;
+}
+
+.Show_10 a {
+  color: #333;
+}
+
+.Show_red {
+  color: #e60039;
+}
+
+.Show_Order > div:last-child > span {
+  cursor: pointer;
+}
+
+.Show_Order > div:last-child > span:hover {
+  text-decoration: underline;
+}
+
+/*查看更多*/
+.see_more {
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  background: #f85162;
+  color: #fff;
+  line-height: 30px;
+  font-size: 14px;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.see_more:active {
+  opacity: 0.8;
+}

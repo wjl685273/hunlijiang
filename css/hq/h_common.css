@@ -1,0 +1,125 @@
+/*-----nav---*/
+.box {
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 244px;
+  background: #f0f3f7;
+  height: 100%;
+  border-right: 1px solid #e8e8e9;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav_top {
+  background: url(../../images/h_Certification/h_nav_bg.png) no-repeat;
+  width: 251px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.nav_cont {
+  padding: 16px 0 0 26px;
+}
+
+.nav_cont li {
+  padding: 1px 0;
+  border-bottom: 1px solid #e9e9ea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.nav_cont li i {
+  display: inline-block;
+  width: 6px;
+  height: 43px;
+  background: #f85162;
+}
+
+.nav_cont_a {
+  height: 36px;
+  background: #f4acb6;
+  width: 211px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+.nav_cont_on {
+  background: #f85162;
+}
+
+.nav_cont_a a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.nav_cont_a a:hover {
+  text-decoration: none;
+}
+
+.nav_cont_off:hover {
+  background: #f85162;
+}
+
+/*-----头部----*/
+header {
+  padding-top: 6px;
+  background: #fff;
+}
+
+.header {
+  background: #f85162;
+  height: 58px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header > div {
+  padding: 0 35px;
+  height: 16px;
+  line-height: 16px;
+  color: #fff;
+  font-size: 12px;
+  border-left: 1px solid #fff;
+}
+
+.Return_index a,.sign_out p{
+  color: #fff;
+}
+
+.sign_out p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Return_index{
+  border: none !important;
+}

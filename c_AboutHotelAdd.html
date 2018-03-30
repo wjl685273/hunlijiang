@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>酒店信息上传</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/cm/c_AboutHotelAdd.css">
+</head>
+<body>
+	<div class="box">
+		<!-- header -->
+		<div class="header">
+			<div class="header_cont">
+				<div class="Return_index">
+					<a href="index.html"><p>返回首页</p></a>
+				</div>
+				<div class="header_name">
+					<p>用户名：<span class="h_name">18030505480</span></p>
+				</div>
+				<div class="sign_out">
+					<p>退出登录</p>
+				</div>
+			</div>
+		</div>
+		<!-- main -->
+		<div class="main">
+			<div class="main_header">
+				<h1>酒店信息上传</h1>
+				<i></i>
+			</div>
+			<div class="main_cont">
+				<div class="main_box">
+					<h2>酒店名称</h2>
+					<div class="main_box_x10">
+						<div class="main_box_x20"> 
+							<input type="text" class="input_text" maxlength="20" placeholder="酒店名称（最多输入二十位）">
+						</div>
+					</div>
+				</div>
+				<div class="main_box">
+					<h2>酒店电话</h2>
+					<div class="main_box_x10">
+						<div class="main_box_x20"> 
+							<input type="text" class="input_text" maxlength="20" placeholder="酒店电话（最多输入二十位）">
+						</div>
+					</div>
+				</div>
+				<div class="main_box">
+					<h2>酒店地址</h2>
+					<div class="main_box_x10">
+						<div class="main_box_x20"> 
+							<input type="text" class="input_text" maxlength="20" placeholder="酒店地址（最多输入二十位）">
+						</div>
+					</div>
+				</div>
+				<div class="main_box">
+					<h2>价格区间</h2>
+					<div class="main_box_x10">
+						<div class="main_box_x20"> 
+							<input type="text" class="input_text" maxlength="20" placeholder="价格区间（最多输入二十位）">
+						</div>
+					</div>
+				</div>
+				<div class="main_box">
+					<h2>酒店简介</h2>
+					<div class="main_box_x10">
+						<div class="main_box_x20">
+							<textarea class="input_textarea" maxlength="250" placeholder="酒店简介(最多输入250字符，换行不保留)"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="main_box">
+					<h2>酒店条件</h2>
+					<ul class="main_box_x30">
+						<li><span><i></i></span>WiFi</li>
+						<li><span><i></i></span>停车场</li>
+						<li><span><i></i></span>餐厅</li>
+						<li><span><i></i></span>行李寄存</li>
+					</ul>
+				</div>
+				<div class="main_box">
+					<h2>酒店政策</h2>
+					<div class="main_box_x10">
+						<div class="main_box_x20">
+							<ul class="policy">
+								<li>
+									<p>酒店菜品价格区间：</p>
+									<input type="text" placeholder="(最多输入50位数)" maxlength="50">
+								</li>
+								<li>
+									<p>酒店是否收取入场费：</p>
+									<input type="text" placeholder="建议填写(是)或者(否)">
+								</li>
+								<li>
+									<p>酒店是否提供婚房：</p>
+									<input type="text" placeholder="建议填写(是)或者(否)">
+								</li>
+								<li>
+									<p>酒店是否提供音响和灯光：</p>
+									<input type="text" placeholder="建议填写(是)或者(否)">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="main_box">
+					<h2>设施服务</h2>
+					<div class="main_box_x10">
+						<div class="main_box_x20">
+							<ul class="facilities">
+								<li>
+									<p>基本信息：</p>
+									<input type="text" placeholder="(最多输入50位数,不够请联系技术人员)" maxlength="50">
+								</li>
+								<li>
+									<p>酒店信息：</p>
+									<input type="text" placeholder="(最多输入50位数,不够请联系技术人员)" maxlength="50">
+								</li>
+								<li>
+									<p>网络设施：</p>
+									<input type="text" placeholder="(最多输入50位数,不够请联系技术人员)" maxlength="50">
+								</li>
+								<li>
+									<p>停车服务：</p>
+									<input type="text" placeholder="(最多输入50位数,不够请联系技术人员)" maxlength="50">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="main_box">
+					<h2>酒店图片</h2>
+					<div class="images_box">
+						<div class="upload_img">
+							<div class="upload_img_Choice">
+								<div class="upload_imgc_show"><p>(最多选择15张)<br>选择图片</p></div>
+								<input type="file" class="file" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+							</div>
+							<div class="input_SCTP" id="imgBox01"></div>
+						</div>
+					</div>
+				</div>
+				<div class="main_box">
+					<h2>大厅信息</h2>
+					<div class="main_box_x10">
+						<div class="main_HallInfo">( 点击添加大厅 )</div>
+					</div>
+				</div>
+				<ul class="HallInfo">
+					<!-- <li>
+						<div class="HallInfo_cont">
+							<h2>大厅名称：梭梭木</h2>
+							<div class="HallInfo_but">
+								<button class="HallInfo_cont_edit">编辑</button>|
+								<button class="HallInfo_cont_delete">删除</button>
+							</div>
+						</div>
+					</li> -->
+				</ul>
+				<div class="main_but">
+					<button class="main_but_on">确认</button>
+					<button class="main_but_off">取消</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- 添加大厅 -->
+		<!-- <div class="HallInfo_bg">
+			<div class="HallInfo_bg_cont">
+				<div class="HallInfo_bg_header">
+					<h2>添加大厅</h2>
+					<div class="HallInfo_bg_Close HallInfo_Close"></div>
+				</div>
+				<div class="HallInfo_bg_x10">
+					<div class="HallInfo_bg_x20">
+						<h3>大厅名称：</h3>
+						<input type="text" class="HallInfo_bg_x20_input HallInfo_name" maxlength="10" placeholder="名称不超过十个字(必填)">
+					</div>
+					<div class="HallInfo_bg_x20">
+						<h3>大厅尺寸：</h3>
+						<input type="text" class="HallInfo_bg_x20_input HallInfo_size" placeholder="建议格式【150m*150m*150m（长*宽*高）】(必填)">
+					</div>
+					<div class="HallInfo_bg_x20">
+						<h3>最大桌数：</h3>
+						<input type="text" class="HallInfo_bg_x20_input HallInfo_number" placeholder="(必填)">
+					</div>
+					<div class="HallInfo_bg_x20">
+						<h3>大厅价格：</h3>
+						<input type="text" class="HallInfo_bg_x20_input HallInfo_price" placeholder="(必填)">
+					</div>
+					<div class="HallInfo_bg_x20">
+						<h3>大厅描述：</h3>
+						<textarea class="HallInfo_bg_x20_textarea HallInfo_describe" placeholder="最大字数不能超过500字,输入内容不支持换行符" maxlength="500"></textarea>
+					</div>
+					<div class="HallInfo_bg_x20">
+						<h3>图片上传：</h3>
+						<ul class="HallInfo_bg_images_box">
+							<li>
+								<div class="HallInfo_imgc_Prompt"><p>(最多选择4张)<br>选择图片</p></div>
+								<div class="HallInfo_imgc_show"></div>
+								<input type="file" class="myFileUpload" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+								<div class="HallInfo_imgc_delete">删除</div>
+							</li>
+							<li>
+								<div class="HallInfo_imgc_Prompt"><p>(最多选择4张)<br>选择图片</p></div>
+								<div class="HallInfo_imgc_show"></div>
+								<input type="file" class="myFileUpload" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+							</li>
+							<li>
+								<div class="HallInfo_imgc_Prompt"><p>(最多选择4张)<br>选择图片</p></div>
+								<div class="HallInfo_imgc_show"></div>
+								<input type="file" class="myFileUpload" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+							</li>
+							<li>
+								<div class="HallInfo_imgc_Prompt"><p>(最多选择4张)<br>选择图片</p></div>
+								<div class="HallInfo_imgc_show"></div>
+								<input type="file" class="myFileUpload" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+							</li>
+						</ul>
+					</div>
+					<div class="HallInfo_bg_x20">
+						<h3>图片描述</h3>
+						<div class="HallInfo_img_describe">
+							<input type="text" maxlength="15" placeholder="输入不超过15字">
+							<input type="text" maxlength="15" placeholder="输入不超过15字">
+							<input type="text" maxlength="15" placeholder="输入不超过15字">
+							<input type="text" maxlength="15" placeholder="输入不超过15字">
+						</div>
+					</div>
+					<div class="HallInfo_bg_x30">
+						<button class="HallInfo_bg_but01">确定</button>
+						<button class="HallInfo_bg_but02 HallInfo_Close">取消</button>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/cm/c_AboutHotelAdd.js"></script>
+	<script>
+		imgUpload({
+			uploadBox:'.upload_img',//索引大框
+			filebox:'.upload_img_Choice',//添加图片按钮class
+			inputId:'.file', //input框id
+			imgBox:['#imgBox01'], //图片容器id
+			data:['imgFiles'], //参数名
+			num:['15'],//上传个数
+		})
+	</script>
+</body>
+</html>

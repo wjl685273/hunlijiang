@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>基本资料上传</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/hq/h_uploadinfo.css">
+	<link rel="stylesheet" href="css/hq/h_common.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 头部 -->
+		<header>
+		</header>
+		<!-- 内容 -->
+		<div class="title">
+			<!-- 标题 -->
+			<div class="title_cont">
+				<div class="title_left">
+					<i></i>
+					<p>基本资料上传</p>
+				</div>
+				<div class="title_right"></div>
+			</div>
+
+			<!-- 内容 -->
+			<div class="main">
+				<form id="uploadForm" enctype="multipart/form-data" method="post">
+					<!-- 用户名隐藏域 -->
+					<div class="hide">
+						<input type="text" name="username" class="username">
+					</div>
+					<!-- 是否有营业执照 -->
+					<div class="hide">
+						<input type="text" name="flag" class="flag" value="1">
+					</div>
+					<!-- 商户名称 -->
+					<div class="input_shadow">
+						<p class="input_title">商户名称</p>
+						<div class="input_text_cont">
+							<i class="input_i"></i>
+							<input class="input_text" type="text" placeholder="商户经营使用名称" name="cp_name">
+						</div>
+					</div>
+					<!-- 商户类型 -->
+					<div class="input_drop">
+						<p class="input_title">商户类型</p>
+						<div class="input_select_cont">
+							<select class="input_select" name="cp_type" id="cp_type">
+							    <option>舞美</option>
+								<option>道具</option>
+						    </select>
+						</div>
+					</div>
+					<!-- 公司地址 -->
+					<div class="input_drop">
+						<p class="input_title">公司地址</p>
+						<div class="input_select_cont">
+						    <select class="input_select" name="province" id="s1">
+								<option>四川省</option>
+							</select>
+							<select class="input_select" name="city" id="s2">
+								<option>成都市</option>
+							</select>
+							<select class="input_select" name="county" id="s3">
+								<option>金牛区</option>
+								<option>锦江区</option>
+								<option>青羊区</option>
+								<option>武侯区</option>
+								<option>成华区</option>
+								<option>龙泉驿区</option>
+								<option>青白江区</option>
+								<option>新都区</option>
+								<option>温江区</option>
+								<option>双流区</option>
+								<option>郫县区</option>
+								<option>金堂县</option>
+								<option>大邑县</option>
+								<option>浦江县</option>
+								<option>新津县</option>
+								<option>都江堰</option>
+							</select>
+						</div>
+					</div>
+					<!-- 详细地址 -->
+					<div class="input_shadow">
+						<p class="input_title">详细地址</p>
+						<div class="input_text_cont">
+							<i class="input_i"></i>
+							<input class="input_text" type="text" placeholder="商户详细地址" name="cp_address">
+						</div>
+					</div>
+					<!-- 联系电话 -->
+					<div class="input_shadow">
+						<p class="input_title">联系电话</p>
+						<div class="input_text_cont">
+							<i class="input_i"></i>
+							<input class="input_text" type="text" placeholder="商户联系电话" name="phone">
+						</div>
+					</div>
+					<!-- 营业执照 -->
+					<div class="input_SCTP">
+						<p class="input_title">营业执照</p>
+						<div class="input_SCTP_cont">
+							<div class="input_SCTP_x10">
+								<i><span></span></i>
+								有营业执照
+							</div>
+							<div class="input_SCTP_x20">
+								<i></i>
+								无营业执照
+							</div>
+						</div>
+					</div>
+
+					<!-- 有营业执照 -->
+					<div class="on_License">
+						<!-- 营业执照名称 -->
+						<div class="input_shadow">
+							<p class="input_title">营业执照名称</p>
+							<div class="input_text_cont">
+								<i class="input_i"></i>
+								<input class="input_text" type="text" placeholder="营业执照名称" name="cp_licenseName">
+							</div>
+						</div>
+						<!-- 执照编号 -->
+						<div class="input_shadow">
+							<p class="input_title">执照编号</p>
+							<div class="input_text_cont">
+								<i class="input_i"></i>
+								<input class="input_text" type="text" placeholder="15位注册号或18位统一社会信用代码" name="cp_licenseNum">
+							</div>
+						</div>
+						<!-- 上传执照 -->
+						<div class="input_img">
+							<p class="input_title">上传执照</p>
+							<div class="input_file_cont">
+								<i class="input_i"></i>
+								<div class="input_file">
+									<div class="blueButton blueButton_01"></div>
+							        <input type="file" name="imgFiles" class="myFileUpload file_img01" accept="image/*">
+								</div>	
+							</div>
+						</div>
+					</div>
+
+					<!-- 无营业执照 -->
+					<div class="off_License">
+						<!-- 身份证姓名 -->
+						<div class="input_shadow">
+							<p class="input_title">身份证姓名</p>
+							<div class="input_text_cont">
+								<i class="input_i"></i>
+								<input class="input_text" type="text" placeholder="身份证姓名" name="identityName">
+							</div>
+						</div>
+						<!-- 身份证号码 -->
+						<div class="input_shadow">
+							<p class="input_title">身份证号码</p>
+							<div class="input_text_cont">
+								<i class="input_i"></i>
+								<input class="input_text" type="text" placeholder="身份证号码" name="identityNum">
+							</div>
+						</div>
+						<!-- 上传身份证(正面) -->
+						<div class="input_img">
+							<p class="input_title">身份证(正面)</p>
+							<div class="input_file_cont">
+								<i class="input_i"></i>
+								<div class="input_file">
+									<div class="blueButton blueButton_02"></div>
+							        <input type="file" name="imgFiles" class="myFileUpload file_img02" accept="image/*">
+								</div>	
+							</div>
+						</div>
+						<!-- 上传身份证(反面) -->
+						<div class="input_img">
+							<p class="input_title">身份证(反面)</p>
+							<div class="input_file_cont">
+								<i class="input_i"></i>
+								<div class="input_file">
+									<div class="blueButton blueButton_03"></div>
+							        <input type="file" name="imgFiles" class="myFileUpload file_img03" accept="image/*">
+								</div>	
+							</div>
+						</div>
+					</div>
+				</form>
+				<!-- 上传按钮 -->
+				<div class="Upload">上传</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hq/h_common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<!-- <script type="text/javascript" src="js/hq/gey.js"></script> -->
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/hq/h_uploadinfo.js"></script>
+</body>
+</html>

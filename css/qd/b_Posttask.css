@@ -1,0 +1,373 @@
+/*导航栏*/
+.main_nav{
+  width: 100%;
+  height: 35px;
+  background: #f85162;
+  line-height: 35px;
+  font-size: 16px;
+  color: #fff;
+  margin: 35px 0 30px 0;
+}
+
+
+.mian_nav_cont{
+  width: 1150px;
+  margin: 0 auto;
+}
+
+/*内容*/
+.main {
+  width: 1150px;
+  margin: 20px auto;
+  background: #fff;
+}
+
+.mian_cont {
+  width: 880px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.main_title {
+  line-height: 26px;
+  font-size: 24px;
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 25px 0;
+  border-bottom: 1px solid #b3b3b3;
+  margin-bottom: 50px;
+}
+
+.main_title i {
+  display: inline-block;
+  width: 3px;
+  height: 26px;
+  background: #f85162;
+  margin-right: 20px;
+}
+
+/*发布任务*/
+.Posttask {
+  padding-left: 90px;
+}
+
+.Posttask_x10 ul {
+  overflow: hidden;
+}
+
+.Posttask_x20 {
+  height: 40px;
+  border-radius: 4px;
+  background: #f4f4f4;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 0 40px 20px 0;
+  float: left;
+}
+
+.Posttask_x20 p {
+  height: 30px;
+  display: inline-block;
+  padding: 0 20px;
+  border-radius: 4px;
+  color: #999;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+  border: 1px dashed #999;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.Posttask_x20_on {
+  background: #f4dddf url(../../images/b_Posttask/Posttask_x10.png) no-repeat
+    right bottom;
+}
+
+.Posttask_x20_on p {
+  color: #f85162;
+  border: 1px dashed #f85162;
+}
+
+/*内容标题*/
+.Posttask_x30 > div {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.Posttask_title {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  color: #4c4c4c;
+  font-size: 16px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 36px;
+}
+
+.Posttask_x40 {
+  width: 660px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 16px;
+  position: relative;
+}
+
+.Posttask_i {
+  display: inline-block;
+  width: 4px;
+  height: 36px;
+  background: #f85162;
+}
+
+.Einlass{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible !important;
+  margin-bottom: 35px !important;
+}
+
+.Einlass p{
+  margin: 0;
+}
+
+#datetimepicker4{
+  width: 656px;
+  height: 36px;
+  border-radius: 0;
+  border-color: #d9d9d9;
+}
+
+.Posttask_input_x10 {
+  width: 450px;
+  height: 36px;
+  border: 1px solid #d9d9d9;
+  border-left: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #555;
+  padding-left: 10px;
+}
+.intime{
+  width: 450px !important;
+  height: 36px !important;
+}
+/*将左边的外边距设置为0*/
+.marginL{
+  margin-left: 0 !important;
+  border: 1px solid #d9d9d9;
+}
+/*将右边的内边距设置为0*/
+.paddingR{
+  padding: 0 !important;
+}
+/*将背景设置为白色*/
+.whiteBg{
+  background-color: #fff !important;
+}
+/*将边框样式设置为none*/
+.borderStyle{
+  border:none !important;
+  outline:none !important;
+  border-radius:none !important;
+}
+/*将上边框和下边框设置为none*/
+.topAndBottom{
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.Posttask_input_x20 {
+  width: 70px;
+  height: 36px;
+  border: 1px solid #d9d9d9;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin: 0 10px;
+}
+/*将右边的边设置为0*/
+.borderRight{
+  border-top-right-radius:0 !important;
+  border-bottom-right-radius:0 !important;
+}
+.Posttask_line {
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  background: #d9d9d9;
+  margin: 0 10px;
+}
+
+.Posttask_prompt {
+  font-size: 14px;
+  color: #333;
+}
+
+.Posttask_textarea {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #d9d9d9;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/*上传图片*/
+
+.main_cont input[type="file"] {
+  border: none;
+}
+
+.main_file {
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+
+/*  蓝色按钮,绝对定位 */
+.blueButton {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/b_Posttask/Posttask_img.png) no-repeat center
+    15px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #ccc;
+}
+
+.blueButton p {
+  margin-top: 50px;
+}
+
+/* 自定义上传,位置大小都和a完全一样,而且完全透明 */
+.myFileUpload {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  cursor: pointer;
+}
+/* 显示上传文件夹名的Div */
+.show {
+  position: absolute;
+  width: 80px;
+  text-align: center;
+  height: 80px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #6a717c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.show img {
+  width: 100%;
+  height: 100%;
+}
+
+.Upload {
+  width: 325px;
+  height: 56px;
+  background: #f85162;
+  text-align: center;
+  line-height: 56px;
+  color: #fff;
+  font-size: 26px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* --图片上传-- */
+.input_SCTP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.input_SCTP input {
+  width: 100%;
+  height: 100%;
+}
+
+.input_SCTP div {
+  margin: 0;
+}
+
+.input_SCTP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.main_file {
+  width: 86px;
+  height: 86px;
+  border: 1px dashed #b3b3b3;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.Posttask_but {
+  width: 180px;
+  height: 70px;
+  border-radius: 10px;
+  background: #f85162;
+  text-align: center;
+  line-height: 70px;
+  font-size: 26px;
+  color: #fff;
+  margin: 60px auto;
+  cursor: pointer;
+  -webkit-box-shadow: 0 5px 10px #fba0a9;
+  box-shadow: 0 5px 10px #fba0a9;
+}
+
+.Posttask_but:active {
+  opacity: 0.9;
+}
+/*地区*/
+.input_Drop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.input_Drop select {
+  width: 145px;
+  height: 30px;
+  text-align: center;
+  margin-right: 10px;
+  color: #666666;
+  border:1px solid #d9d9d9
+}

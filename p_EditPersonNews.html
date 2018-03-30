@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改人员</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/pm/p_AddCommodity.css">
+	<link rel="stylesheet" href="css/hq/h_common.css">
+	<!---->
+</head>
+<body>
+	<div class="box">
+		<!-- 导航栏 -->
+		<div class="nav">
+		</div>
+
+		<!-- 头部 -->
+		<header>
+		</header>
+		<!-- 内容 -->
+		<form id="uploadForm" enctype="multiple/form-data" method="post">
+			<div class="main">
+				<div class="title">
+					<div class="add_Person">编辑人员</div>
+				</div>
+				<div class="content">
+					<!-- 名称 -->
+					<div class="p_name">
+						<div class="add_type_title">名称</div>
+						<input type="text" name="pname" class="add_type_name" placeholder="名称请控制在16个字符内" maxlength="16">
+						<input type="text" name="username" class="hide">
+					</div>
+					<!-- 类型 -->
+					<div class="p_name">
+						<div class="add_type_title">类型</div>
+						<select class="p_select" name="type">
+							<option>个人</option>
+							<option>团体</option>
+						</select>
+					</div>
+					<!-- 地址 -->
+					<div class="p_name">
+						<div class="add_type_title">地址</div>
+						<!-- 城市 -->
+						<div class="input_Drop">
+							<select class="select" name="province" id="s1">
+								<option>四川省</option>
+							</select>
+							<select class="select" name="city" id="s2">
+								<option>成都市</option>
+							</select>
+							<select class="select" name="county" id="s3">
+								<option>金牛区</option>
+								<option>锦江区</option>
+								<option>青羊区</option>
+								<option>武侯区</option>
+								<option>成华区</option>
+								<option>龙泉驿区</option>
+								<option>青白江区</option>
+								<option>新都区</option>
+								<option>温江区</option>
+								<option>双流区</option>
+								<option>郫县区</option>
+								<option>金堂县</option>
+								<option>大邑县</option>
+								<option>浦江县</option>
+								<option>新津县</option>
+								<option>都江堰</option>
+							</select>
+						</div>
+					</div>
+					<!-- 详细地址 -->
+					<div class="p_name">
+						<div class="add_type_title">详细地址</div>
+						<input type="text" name="address" class="add_type_name" maxlength="50">
+					</div>
+					<!-- 身高 -->
+					<div class="p_name personHeight">
+						<div class="add_type_title">身高</div>
+						<input type="text" class="p_select heigAndPri yourHeight" name="height" placeholder="单位为cm" maxlength="3">
+						<!-- <div class="p_select"></div> -->
+					</div>
+					<!-- 风格 -->
+					<div class="p_name">
+						<div class="add_type_title">风格</div>
+						<!-- 风格类型 -->
+							<div class="Posttask_x10">
+								<ul>
+									<li class="Posttask_x20">
+										<p>风趣</p>
+									</li>
+									<li class="Posttask_x20">
+										<p>简洁</p>
+									</li>
+									<li class="Posttask_x20">
+										<p>成熟</p>
+									</li>
+									<li class="Posttask_x20">
+										<p>大气</p>
+									</li>
+									<li class="Posttask_x20">
+										<p>稳重</p>
+									</li>
+									<li class="Posttask_x20">
+										<p>温馨</p>
+									</li>
+									<li class="Posttask_x20">
+										<p> 欢快 </p>
+									</li>
+									<li class="Posttask_x20">
+										<p> 控场达人 </p>
+									</li>
+								</ul>
+								<input type="text" name="style" class="hide style">
+							</div>
+					</div>
+					<!-- 价格 -->
+					<div class="p_name">
+						<div class="add_type_title">价格</div>
+						<input type="text" class="p_select heigAndPri
+						 yourPrice" name="price" placeholder="单位为元" maxlength="8">
+						<!-- <div class="add_type_name"></div> -->
+					</div>
+					<!-- 头像 -->
+					<div class="p_name">
+						<div class="add_type_title">头像</div>
+						<div class="main_file_head">
+							<a href='javascript:void(0);' class="blueButton_head"><p>上传头像</p></a>
+							<div class="show_head">
+								<img src="">
+							</div>
+							<input type="file" name="imgFiles" class="myFileUpload_02 myFileUpload_head" accept="image/*">
+						</div>
+					</div>
+					<!-- 案例图片 -->
+					<input type="" class="hide" name="imgCase">
+					<input type="" name="pid" class="hide">
+					<div class="p_name">
+						<div class="add_type_title">案例图片</div>
+						<div>
+							<!-- 商品图片 -->
+							<div class="upload_img">
+								<div class="input_SCTP" id="imgBox"></div>
+								<div class="upload_img_Choice">
+									<div class="upload_imgc_show">选择图片</div>
+									<input type="file" class="file uploadimg" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!-- 案例视频 -->
+					<div class="p_name">
+						<div class="add_type_title">案例视频</div>
+						<div id="addVideo">
+							<div class="add_addr">
+								<input type="text"  class="add_type_name" placeholder="请填写正确的视频地址">
+								<input type="button" name="" value="添加地址" class="add_addr_btn">
+							</div>
+							<ul class="upload_addr">
+								<!-- <li>
+									<span>file:///E:/20171218/%E5%A9%9A%E7%A4%BC%E5%AE%B6/p_AddCommodity.html</span>
+									<input type="button" name="" value="删除" class="addr_delete">
+								</li> -->
+							</ul>
+							<input type="text" name="video" class="hide">
+						</div>
+					</div>
+					<!-- 人员简介 -->
+					<div class="p_name">
+						<div class="add_type_title">人员简介</div>
+						<div class="descSimple">
+							<textarea name="desc" class="desc" maxlength="200"></textarea>
+						</div>
+					</div>
+					<!-- 公告 -->
+					<div class="p_name">
+						<div class="add_type_title">公告</div>
+						<div class="descSimple">
+							<textarea name="notice" class="desc" maxlength="200"></textarea>
+						</div>
+					</div>
+					<!-- 上传 -->
+					<div class="p_upload">
+						<div class="upload" id="btn">确定上传</div>
+					</div>
+			</div>
+		</div>
+	</form>
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/hq/h_common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/hq/gey.js"></script>
+	<script type="text/javascript" src="js/pm/p_EditPersonNews.js"></script>
+	
+	<script>
+		imgUpload({
+			uploadBox:'.upload_img',//索引大框
+			filebox:'.upload_img_Choice',//添加图片按钮class
+			inputId:'.file', //input框class
+			imgBox:['#imgBox'], //图片容器ids
+			data:['imgFiles1'], //参数名
+			num:['6'],//上传个数
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+/*------标题-------*/
+.title {
+  width: 1150px;
+  margin-left: auto;
+}
+
+.title_box{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.title_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.title_left {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.title_right {
+  width: 750px;
+  height: 18px;
+  border-bottom: 1px solid #f1959f;
+}
+
+.title_left > i {
+  width: 3px;
+  height: 18px;
+  background: #eb5162;
+}
+
+.title_left > p {
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+.title_left span {
+  font-size: 12px;
+}
+
+/*----内容----*/
+
+.main {
+  width: 900px;
+  margin-left: auto;
+}
+
+/*间距调整*/
+.input_shadow,.input_brief,.upload_img,.input_style{
+  margin-bottom: 50px;
+}
+
+/*内容大框*/
+.input_shadow{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 53px;
+}
+
+.input_brief,.upload_img{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input_style{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*内容标题*/
+.input_title{
+  width: 150px;
+  font-size: 16px;
+  color: #6a717c;
+  line-height: 53px;
+}
+
+.input_style .input_title{
+  line-height: 40px;
+}
+
+/*i标签样式*/
+.input_i{
+  display: inline-block;
+  width: 9px;
+  height: 53px;
+  background: #f85162;
+}
+
+/*文本框*/
+.input_text_cont{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0 5px #eee;
+          box-shadow: 0 0 5px #eee;
+}
+
+.input_text{
+  width: 471px;
+  border: 1px solid #ededee;
+  border-left: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #6a717c;
+  font-size: 16px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.input_brief_cont{
+  width: 480px;
+  height: 180px;
+  -webkit-box-shadow: 0 0 5px #eee;
+          box-shadow: 0 0 5px #eee;
+}
+
+.input_brief_cont .input_textarea{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ededee;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #6a717c;
+  font-size: 14px;
+}
+
+/*风格*/
+.input_style_cont{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input_style_cont li{
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 40px;
+  background: #f4f4f4;
+  border-radius: 4px;
+  margin-right: 20px;
+  line-height: 28px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.input_style_cont li p{
+  padding: 0 20px;
+  display: inline-block;
+  border: 1px dashed #999;
+  border-radius: 3px;
+  color: #999;
+}
+
+.input_style_cont .input_style_x10{
+  background: #f4dddf url(../../images/b_Posttask/Posttask_x10.png) no-repeat right bottom;
+}
+
+.input_style_cont .input_style_x10 p{
+  border: 1px dashed #f85162;
+  color: #f85162;
+}
+
+/*图片上传*/
+.upload_img_Choice{
+  width: 100px;
+  height: 100px;
+  border: 1px dashed #999;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.upload_imgc_show{
+  width: 100%;
+  height: 100%;
+  background: url(../../images/Posttask_img.png) no-repeat center 10px;
+  background-size: 40px 40px;
+}
+
+.upload_imgc_show p{
+  padding-top: 55px;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.upload_img_Choice input{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: -50px; left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/*上传图片预览框*/
+.input_SCTP{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_file{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-right: 15px;
+  position: relative;
+  border: 1px dashed #999;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding:2px;
+  cursor: pointer;
+}
+
+.show{
+  width: 100%;
+  height: 100%;
+}
+
+.show img{
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+
+.main_file_hide{
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  bottom: -25px; left: 0;
+  background: rgba(255,255,255,0.7);
+  text-align: center;
+  line-height: 25px;
+  color: #333;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.main_file:hover .main_file_hide{
+  bottom: 0;
+}
+
+
+/*上传按钮*/
+.Upload {
+  width: 325px;
+  height: 56px;
+  background: #f85162;
+  text-align: center;
+  line-height: 56px;
+  color: #fff;
+  font-size: 26px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 200px;
+}

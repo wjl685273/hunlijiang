@@ -1,0 +1,263 @@
+/*导航栏*/
+.main_nav{
+  width: 100%;
+  height: 35px;
+  background: #f85162;
+  line-height: 35px;
+  font-size: 16px;
+  color: #fff;
+  margin: 35px 0 60px 0;
+}
+
+.mian_nav_cont{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*进度条*/
+.main_header{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	height: 90px;
+	padding-top: 28px; 
+	margin-bottom: 60px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.main_header_jd{
+	width: 80%;
+	background: #999;
+	margin: 0 auto;
+}
+.main_header_jd_t{
+	width: 71%;
+	background: #999;
+	margin: 0 auto;
+}
+.main_header_current{
+	width: 0;
+	height: 4px;
+	background: #f85162;
+}
+
+.main_header_cont{
+	width: 100%;
+	position: absolute;
+	top: 0; left: 0;
+	overflow: hidden;
+}
+
+.main_header_cont li{
+	width:25%;
+	float: left;
+}
+.main_header_cont_t li{
+	width:33%;
+	float: left;
+}
+.main_header_cont li div{
+	width: 58px;
+	height: 58px;
+	margin: 0 auto;
+	border-radius: 100%;
+}
+.main_header_x10{
+	background: rgb(248,81,98) url(../../images/h_detailsOrder/detailsOrder_hook.png) no-repeat center center !important;
+}
+.main_header_x20{
+	background: rgb(153,153,153) url(../../images/h_detailsOrder/detailsOrder_hook.png) no-repeat center center;
+}
+
+.main_header_cont li p{
+	font-size: 16px;
+	color: #999;
+	text-align: center;
+	line-height: 16px;
+	margin-top: 14px;
+}
+
+/*内容*/
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.main_cont{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.main_cont_left{
+	width: 100%;
+	padding: 40px 227px;
+	border-right: 1px solid #ddd;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.main_cont_left h1{
+	color: #666;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 50px;
+}
+
+.main_cont_left p{
+	font-size: 16px;
+	line-height: 16px;
+	margin-bottom: 20px;
+	color: #999;
+}
+
+.main_cont_left p:last-child{
+	line-height: 32px;
+}
+
+.main_cont_right{
+	width: 45%;
+}
+
+.main_cont_right ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+
+.main_cont_right ul li{
+	width: 235px;
+	height: 300px;
+	overflow: hidden;
+	margin: 15px 0 15px 30px;
+}
+
+.main_cont_right ul li img{
+	width: 100%;
+	height: 100%;
+}
+/*缴纳保证金按钮*/
+.payMoney{
+	width: 245px;
+	height: 50px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f85162;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-top:170px;
+	cursor:pointer;
+	display: none;
+}
+/*支付保证金*/
+.deposit{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 10;
+  display: none;
+}
+
+.deposit_cont{
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 920px;
+  background: #fff;
+}
+
+.deposit_title{
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  background: #f85162;
+  padding-left: 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deposit_title span{
+  width: 20px;
+  height: 20px;
+  background: url(../../images/xx.png) no-repeat;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.deposit_info{
+  text-align: center;
+  color: #666;
+}
+
+.deposit_info_x10{
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 70px;
+}
+
+.deposit_info_x10 span{
+  color: #f85162;
+}
+
+.deposit_info_x20{
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.deposit_info_x20 em{
+  font-size: 26px;
+  color: #f85162;
+}
+
+.deposit_info_x20 span{
+  font-size: 40px;
+  color: #f85162;
+}
+
+.deposit_but{
+  width: 270px;
+  height: 60px;
+  border-radius: 10px;
+  background: #f85162;
+  color: #fff;
+  border: none;
+  font-size: 28px;
+  margin: 36px 0 40px 0;
+}
+
+.deposit_footer{
+  width: 800px;
+  border-top: 1px solid #eee;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.deposit_footer p{
+  font-size: 14px;
+  color: #666;
+  line-height: 14px;
+  margin-bottom: 12px;
+}
+
+.deposit_footer_on{
+  text-indent: 2em;
+  margin-bottom: 27px !important;
+}

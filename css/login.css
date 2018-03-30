@@ -1,0 +1,125 @@
+.header_main {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0 20px;
+}
+.main {
+  background: #f85162;
+}
+.main_cont {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 90px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: url(../images/login/login_banner.png) no-repeat 100px 100px;
+}
+.login {
+  position: relative;
+  width: 400px;
+  float: right;
+  background: #ecf9ff;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #0074a9;
+}
+.login h1 {
+  font-size: 20px;
+  color: #333;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+.username {
+  background: rgba(255, 255, 255, 1) url(../images/login/login_name.png)
+    no-repeat;
+}
+.password {
+  background: rgba(255, 255, 255, 1) url(../images/login/login_pass.png)
+    no-repeat;
+}
+.x10 {
+  width: 100%;
+  height: 46px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #cdcdcd;
+  padding-left: 56px;
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 45px;
+}
+.login_ts {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 16px;
+  width: 100%;
+  color: red;
+  font-size: 12px;
+}
+.login_uesr {
+  top: 150px;
+}
+.login_pass {
+  top: 245px;
+}
+.x20 {
+  color: #797979;
+  font-size: 14px;
+}
+.x20 input {
+  width: 16px;
+  height: 16px;
+}
+.x20 a {
+  display: inline-block;
+  float: right;
+  color: #797979;
+}
+.button {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  line-height: 45px;
+  background: #f85162;
+  border: 1px solid #f85162;
+  border-bottom: 1px solid #0074a9;
+  margin: 40px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:active {
+  border-bottom: 1px solid #ecf9ff;
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+  color: #474747;
+  padding-top: 20px;
+}
+
+.footer span {
+  display: inline-block;
+  float: right;
+}
+
+.footer a {
+  color: #474747;
+}
+
+.returnIndex {
+  float: left !important;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商户认证</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/hq/h_Certification.css">
+	<link rel="stylesheet" href="css/hq/h_common.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 导航栏 -->
+		<div class="nav">
+		</div>
+
+		<!-- 头部 -->
+		<header>
+		</header>
+		<!-- 内容 -->
+		<div class="title">
+			<!-- 标题 -->
+			<div class="title_cont">
+				<div class="title_left">
+					<i></i>
+					<p>商户认证<span>>上传信息</span></p>
+				</div>
+				<div class="title_right"></div>
+			</div>
+			<!-- 内容 -->
+			<div class="main">
+				<div class="main_left">
+					<p>商户名称</p>
+					<p>商户类型</p>
+					<p>商户信息</p>
+					<p>公司地址</p>
+					<p>详细地址</p>
+					<p>营业执照名称</p>
+					<p>执照编号</p>
+					<p>上传执照</p>
+				</div>
+				<div class="main_cont">
+					<form id="uploadForm" enctype="multipart/form-data" method="post">
+						<div class="input_shadow">
+							<i class="main_bian"></i>
+							<input name="cp_name" type="text" placeholder="商户经营使用名称">
+						</div>
+
+						<div class="input_Drop">
+							<select name="m_type" id="cp_type">
+							    <option>婚庆</option>
+								<option>人员</option>
+								<option>舞美</option>
+								<option>道具</option>
+						    </select>
+						</div>
+
+						<div class="input_Drop">
+							<select name="cp_type" id="cp_type">
+							    <option>公司</option>
+								<option>个人</option>
+						    </select>
+						</div>
+
+						<div class="input_Drop">
+							<select class="select" name="province" id="s1">
+								<option></option>
+							</select>
+							<select class="select" name="city" id="s2">
+								<option></option>
+							</select>
+							<select class="select" name="county" id="s3">
+								<option></option>
+							</select>
+						</div>
+
+						<div class="input_shadow">
+							<i class="main_bian"></i>
+							<input name="cp_address" type="text" placeholder="详细地址">
+						</div>
+
+						<div class="input_shadow">
+							<i class="main_bian"></i>
+							<input name="cp_licenseName" type="text" placeholder="营业执照名称">
+						</div>
+
+						<div class="input_shadow">
+							<i class="main_bian"></i>
+							<input name="cp_licenseNum" type="text" placeholder="15位注册号或18位统一社会信用代码">
+						</div>
+
+						<div class="input_shadow">
+							<i class="main_bian"></i>
+							<div class="main_file">
+								<a href='javascript:void(0);' class="blueButton"></a>
+						        <div class="show"></div>
+						        <input type="file" name="imgFile" class="myFileUpload">
+							</div>
+						</div>
+
+						<div class="hide">
+							<input type="text" name="username" id="username">
+						</div>
+					</form>
+					<div class="Upload">上传</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/hq/h_common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/hq/gey.js"></script>
+	<script type="text/javascript" src="js/hq/h_Certification.js"></script>
+</body>
+</html>

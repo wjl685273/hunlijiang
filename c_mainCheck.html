@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>审核中心</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/cm/c_mainCheck.css">
+</head>
+<body>
+	<div class="box">
+		<!-- nav -->
+		<div class="nav">
+			<div class="nav_top">商家后台</div>
+			<ul class="nav_cont">
+				<li>
+					<i></i>
+					<div class="nav_cont_a nav_cont_off person">
+						<a>人员审核</a>
+					</div>
+				</li>
+				<li>
+					<i></i>
+					<div class="nav_cont_a nav_cont_off merchant">
+						<a>用户基本资料审核</a>
+					</div>
+				</li>
+				<li>
+					<i></i>
+					<div class="nav_cont_a nav_cont_off hotel">
+						<a>上传酒店信息</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- header -->
+		<div class="header">
+			<div class="Return_index">
+				<a href="index.html"><p>返回首页</p></a>
+			</div>
+			<div class="header_name">
+				<p>用户名：<span class="h_name"></span></p>
+			</div>
+			<div class="sign_out">
+				<p>退出登录</p>
+			</div>
+		</div>
+		<!-- content -->
+		<div class="content">
+			<!-- 选项 -->
+			<div class="stateItems">
+				<!-- stateItem_on为active状态 -->
+				<div class="stateItem one">
+					<div class="stateItem_01"></div>
+					<div class="s_status">待审核</div>
+				</div>
+				<div class="stateItem two">
+					<div class="stateItem_02"></div>
+					<div class="s_status">审核通过</div>
+				</div>
+				<div class="stateItem three">
+					<div class="stateItem_03"></div>
+					<div class="s_status">审核未通过</div>
+				</div>
+			</div>
+			<!-- 选项内容 -->
+			<div class="checkList">
+				<div class="checklistItem">喵星人</div>
+			</div>
+			<!-- 分页条 -->
+			<div class="main_Pagination"></div>
+		</div>
+	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/cm/c_mainCheck.js"></script>
+	<script type="text/javascript" src="js/paging.js"></script>
+	<script>
+		// $('.main_Pagination').paging({
+  //           initPageNo: 1, // 初始页码
+  //           totalPages: 1, //总页数
+  //           totalCount: '合计' + 10 + '条数据', // 条目总数
+  //           slideSpeed: 600, // 缓动速度。单位毫秒
+  //           jump: true, //是否支持跳转
+  //           callback: function(page) {}
+  //       })
+	</script>
+</body>
+</html>

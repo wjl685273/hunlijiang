@@ -1,0 +1,472 @@
+/*内容*/
+.main {
+  width: 1150px;
+  margin-left: auto;
+}
+
+.main_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 10px 0 70px 0;
+}
+
+.main_top_01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #e4ebf1;
+  -webkit-box-shadow: 0 0 5px #ddd;
+  box-shadow: 0 0 5px #ddd;
+}
+
+.main_top_01 > div {
+  height: 97px;
+}
+
+.mian_top_img {
+  width: 74px;
+  border-right: 1px solid #e4ebf1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #f9fafb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main_top_text {
+  width: 192px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 26px;
+  line-height: 26px;
+  color: #f53646;
+}
+
+.main_top_text p {
+  display: inline-block;
+  width: 192px;
+  text-align: center;
+}
+
+.mainTT_x10 {
+  font-size: 20px;
+  color: #546a79;
+}
+
+/*商户信息*/
+.main_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 70px;
+  padding-left: 80px;
+}
+
+.main_content > div {
+  /* border-left: 1px solid #ecedf4; */
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*标题*/
+.main_cont_title {
+  border-left: 2px solid #f53646;
+  font-size: 16px;
+  height: 24px;
+  color: #394e5f;
+  padding-left: 10px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main_calendar .main_cont_title {
+  border-bottom: none;
+}
+
+/*系统公告*/
+.main_Notice_cont{
+  width: 80%;
+  height: 260px;
+  border: 1px solid #dcdcdc;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main_Notice_cont a{
+  color: #666;
+}
+
+.main_Notice_cont p{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0;
+  color: #666;
+}
+
+.main_Notice_x10{
+  display: inline-block;
+  width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/*个人信息*/
+.main_Avatar_cont {
+  margin-bottom: 70px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_Avatar_img {
+  width: 120px;
+  height: 120px;
+  padding: 2px;
+  border: 1px solid #aaa;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+
+.main_Avatar_img > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.main_Avatar_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.main_Avatar_user{
+  font-size: 28px;
+  line-height: 28px;
+  color: #f53646;
+  margin-bottom: 25px;
+}
+
+.main_Avatar_user i{
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  background: url(../../images/h_MerchantCenter/deposit_pic.png) no-repeat;
+  margin-left: 10px;
+}
+
+.main_Avatar_right{
+  margin-left: 30px;
+}
+
+.main_Avatar_but{
+  display: inline-block;
+  width: 110px;
+  height: 36px;
+  border-radius: 6px;
+  background: #f85162;
+  color: #fff;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.main_Avatar_but:active{
+  opacity: 0.9;
+}
+
+/*订单列表*/
+.main_footer {
+  padding-left: 80px;
+  padding-bottom: 150px;
+}
+
+.main_footer a:hover{
+  text-decoration: none;
+}
+
+.main_search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.main_search > div {
+  width: 50%;
+}
+
+.main_search_title p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  color: #333;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+
+.main_search_title p i {
+  display: inline-block;
+  width: 2px;
+  height: 22px;
+  background: #f53646;
+  margin-right: 10px;
+}
+
+.main_search_title span {
+  font-size: 16px;
+  color: #1f1f1f;
+  margin-right: 50px;
+}
+
+.main_search_title span:hover {
+  cursor: pointer;
+}
+
+.main_st_on {
+  color: #f56770 !important;
+}
+
+/*搜索框*/
+.main_search_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.main_search_cont input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #e0e0e0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main_sc_but {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  background: #f53646;
+  color: #fff;
+  line-height: 30px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+
+/*订单属性*/
+.main_Attributes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+  background: #f53646;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.main_Attributes p {
+  display: inline-block;
+  width: 150px;
+}
+
+.main_Details {
+  margin-bottom: 50px;
+}
+
+.main_Details_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.main_Details_cont > div {
+  width: 153px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main_Details_cont .main_Details_but{
+  width: 70px;
+  padding: 5px 0;
+  text-align: center;
+  background: #f1212d;
+  margin-left: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main_Details_but a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.main_Details_but a:hover{
+  text-decoration: none;
+}
+
+/*日历*/
+.main_calendar{
+  padding-left: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#cal {
+  width: 434px;
+  font-size: 12px;
+  -webkit-box-shadow: 0 0 5px #ddd;
+  box-shadow: 0 0 5px #ddd;
+}
+#cal #top {
+  height: 29px;
+  line-height: 29px;
+  background: #f53646;
+  color: #fff;
+  padding-left: 70px;
+}
+#cal #top select {
+  font-size: 12px;
+  color: #fff;
+  background: #f53646;
+  border: none;
+}
+
+#cal #top option {
+  color: #333;
+}
+
+#cal #top input[type="button"] {
+  border: none;
+  color: #fff;
+  background: #f53646;
+  cursor: pointer;
+}
+
+#cal #top input {
+  padding: 0;
+}
+#cal ul#wk {
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  background: #f1f2f7;
+}
+#cal ul#wk li {
+  float: left;
+  width: 60px;
+  text-align: center;
+  line-height: 25px;
+  list-style: none;
+}
+#cal ul#wk li b {
+  font-weight: normal;
+  color: #ff6c60;
+}
+#cal #cm {
+  clear: left;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px dotted #ddd;
+  position: relative;
+}
+#cal #cm .cell {
+  position: absolute;
+  width: 42px;
+  height: 36px;
+  text-align: center;
+  margin: 0 0 0 9px;
+}
+#cal #cm .cell .so {
+  font: bold 16px arial;
+}
+#cal #bm {
+  text-align: right;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 13px 0 0;
+}
+#cal #bm a {
+  color: 7977ce;
+}
+#cal #fd {
+  display: none;
+  position: absolute;
+  border: 1px solid #dddddf;
+  background: #feffcd;
+  padding: 10px;
+  line-height: 21px;
+  width: 150px;
+}
+#cal #fd b {
+  font-weight: normal;
+  color: #c60a00;
+}
+
+/*下拉框样式*/
+#cal #top select {
+  /*很关键：将默认的select选择框样式清除*/
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background: url("../../images/arrow.png") no-repeat scroll right center
+    transparent;
+
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 14px;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+#cal #top select::-ms-expand {
+  display: none;
+}

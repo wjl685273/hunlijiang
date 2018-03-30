@@ -1,0 +1,122 @@
+/*内容*/
+.main{
+	width: 1150px;
+	margin-left: auto;
+}
+
+.main_cont{
+	width: 900px;
+	margin: 0 auto;
+	padding: 60px 0 0 0;
+}
+
+/*进度条*/
+.main_header{
+	position: relative;
+	height: 90px;
+	padding-top: 28px; 
+	margin-bottom: 47px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.main_header_jd{
+	width: 80%;
+	background: #999;
+	margin: 0 auto;
+}
+
+.main_header_current{
+	width: 65%;
+	height: 4px;
+	background: #f85162;
+}
+
+.main_header_cont{
+	width: 100%;
+	position: absolute;
+	top: 0; left: 0;
+	overflow: hidden;
+}
+
+.main_header_cont li{
+	width:20%;
+	float: left;
+}
+
+.main_header_cont li div{
+	width: 58px;
+	height: 58px;
+	margin: 0 auto;
+	border-radius: 100%;
+}
+
+.main_header_x10{
+	background: rgb(248,81,98) url(../../images/h_detailsOrder/detailsOrder_hook.png) no-repeat center center;
+}
+
+.main_header_x20{
+	background: rgb(153,153,153) url(../../images/h_detailsOrder/detailsOrder_hook.png) no-repeat center center;
+}
+
+.main_header_cont li p{
+	font-size: 16px;
+	color: #999;
+	text-align: center;
+	line-height: 16px;
+	margin-top: 14px;
+}
+
+/*内容标题*/
+.main_title{
+	font-size: 24px;
+	height: 27px;
+	border-left: 3px solid #f85162;
+	padding-left: 20px;
+	line-height: 27px;
+	color: #4c4c4c;
+	margin-bottom: 27px;
+}
+
+/*订单内容*/
+.main_order{
+	border-top: 1px solid #b3b3b3;
+	color: #4c4c4c;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.mian_order_cont{
+	margin-top: 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.main_order_title{
+	width: 110px;
+}
+
+.main_order_x10{
+	width: 790px;
+}
+
+.main_order_x20{
+	width: 790px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.main_order_img{
+	width: 86px;
+	height: 86px;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-right: 35px;
+}
+
+.main_order_img img{
+	width: 100%;
+	height: 100%;
+}

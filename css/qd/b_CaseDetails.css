@@ -1,0 +1,210 @@
+a:hover{
+	text-decoration: none;
+}
+
+/*导航栏*/
+.main_nav{
+  width: 100%;
+  height: 35px;
+  background: #f85162;
+  line-height: 35px;
+  font-size: 16px;
+  color: #fff;
+  margin: 35px 0 60px 0;
+}
+
+.mian_nav_cont{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*内容*/
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main_top{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.main_top_logo{
+	position: relative;
+	width: 190px;
+	height: 240px;
+	background: #f85162;
+	margin-right: 145px; 
+}
+
+.main_top_logo div{
+	width: 190px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.main_top_logo img{
+	width: 100%;
+	height: 100%;
+}
+
+.main_top_cont{
+	width: 690px;
+	margin-bottom: 60px;
+}
+
+.main_top_cont > h1{
+	font-size: 28px;
+	line-height: 28px;
+	color: #333;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.main_top_cont > span{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 14px;
+	color: #666;
+	margin-bottom: 7px;
+}
+
+.main_top_i{
+	margin-bottom: 15px;
+}
+
+.main_top_i > i{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	overflow: hidden;
+	margin-right: 3px;
+	background: url(../../images/b_Preferred_ZCR/personnel_optimization_star02.png);
+}
+
+.main_top_i .main_top_ion{
+	background: url(../../images/b_Preferred_ZCR/personnel_optimization_star01.png);
+}
+
+.main_top_cont > p{
+	font-size: 14px;
+	color: #666;
+	line-height: 20px;
+	margin-bottom: 60px;
+}
+
+.main_top_footer{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+
+.main_top_footer{
+	font-size: 20px;
+	color: #666;
+}
+
+.main_top_footer em{
+	font-size: 14px;
+	color: #f85162;
+}
+
+.main_top_footer span{
+	font-size: 30px;
+	color: #f85162;
+}
+
+.main_top_but{
+	width: 120px;
+	height: 40px;
+	background: #f85162;
+	border-radius: 8px;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	font-size: 16px;
+	margin-left: 95px;
+}
+
+/*设计思路*/
+.Design{
+	padding: 0 250px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	color: #666;
+	margin-bottom: 60px;
+}
+
+.Design h1{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px; 
+}
+
+.Design p{
+	line-height: 32px;
+	font-size: 16px;
+}
+
+/*效果图展示*/
+.main_cont_title{
+	border-bottom: 1px solid #f85162;
+	font-family: "fontgzf";
+	margin-bottom: 40px;
+}
+
+.main_cont_title p{
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	width: 85px;
+	line-height: 40px;
+	height: 40px;
+	background: #f85162;
+	color: #fff;
+	position: relative;
+}
+
+.main_cont_title p::before{
+	content: "";
+  	position: absolute;
+  	top: 0; right: -35px;
+  	width: 0;
+  	height: 0;
+  	border-bottom: 40px solid #f85162;
+  	border-right: 35px solid transparent;
+}
+
+.main_Exhibition{
+	margin-bottom: 90px;
+}
+
+.main_Exhibition img{
+	width: 100%;
+	height: 100%;
+}
+
+.main_Exhibition_cont{
+	height: 525px;
+}
+
+.swiper-button-prev,.swiper-button-next{
+	width: 100px;
+	height: 100%;
+	top: 0;
+	margin-top: 0;
+}
+
+.swiper-button-prev{
+	left: 0;
+}
+
+.swiper-button-next{
+	right: 0;
+}

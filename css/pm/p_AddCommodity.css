@@ -1,0 +1,434 @@
+.main{
+  width: 905px;
+  margin:60px 100px 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*标题*/
+.title{
+  width: 905px;
+  height: 47px;
+  border-bottom: 1px solid #f85162;
+  margin-bottom: 40px;
+}
+.add_Person{
+  width: 88px;
+  height: 19px;
+  line-height: 19px;
+  font-size: 16px;
+  color: #333333;
+  border-left: 3px solid #f85162;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*内容*/
+.content{
+  width: 818px;
+  margin-left: 88px;
+}
+/*添加类型*/
+.p_name{
+  width: 817px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.add_type_title{
+  width: 86px;
+  height: 54px;
+  line-height: 54px;
+  font-size: 16px;
+  color: #666666;
+}
+.add_type_name{
+  display: block;
+  width: 400px;
+  height: 54px;
+  line-height: 54px;
+  border:1px solid #e6e6e6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-left: 8px solid #f85162;
+  font-size: 16px;
+  color: #666666;
+  padding-left: 10px;
+}
+.p_select{
+  width: 90px;
+  height: 30px;
+  border:1px solid #e6e6e6;
+  margin:auto 0;
+  color: #666666;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*地址*/
+.input_Drop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.input_Drop select {
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  margin-right: 10px;
+  color: #666666;
+}
+
+/*身高，价格*/
+.heigAndPri{
+  padding-left: 10px;
+}
+/*风格类型*/
+.Posttask_x10{
+  width: 817px;
+  margin:auto 0;
+}
+.Posttask_x10 ul {
+  overflow: hidden;
+}
+.Posttask_x10 ul li {
+  list-style: none;
+}
+  
+.Posttask_x20 {
+  height: 30px;
+  border-radius: 4px;
+  background: #f4f4f4;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-right: 8px;
+  float: left;
+}
+.Posttask_x20 p {
+  height: 20px;
+  display: inline-block;
+  padding: 0 20px;
+  border-radius: 4px;
+  color: #999;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px dashed #999;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.Posttask_x20_on {
+  background: #f4dddf url(../../images/b_Posttask/Posttask_x10.png) no-repeat
+    right bottom;
+}
+
+.Posttask_x20_on p {
+  color: #f85162;
+  border: 1px dashed #f85162;
+}
+/*上传图片*/
+.avatar-btns button {
+  height: 35px;
+}
+.upload_button{
+  margin: 18px 0 0 0;
+  padding: 0px;
+  border: none;
+  width: 182px;
+  height: 182px;
+  font-size: 16px;
+  color: #666;
+  position: relative;
+}
+.upload_button img{
+  position: absolute;
+  left:0;
+  top:0;
+}
+.upload_button:hover{
+  color: #666;
+}
+/*上传头像*/
+.main_file_head {
+  width: 153px;
+  height: 155px;
+  margin-top: 12px;
+  border-radius:8px;
+  border: 3px solid #ccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+/*  蓝色按钮,绝对定位 */
+.blueButton_head {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/b_Posttask/Posttask_img.png) no-repeat center
+    50px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #ccc;
+}
+
+.blueButton_head p {
+  margin-top: 107px;
+  font-size: 16px;
+  color: #666666;
+}
+/* 自定义上传,位置大小都和a完全一样,而且完全透明 */
+.myFileUpload_head {
+  width: 153px;
+  height: 155px;
+  position: absolute;
+  display: block;
+  opacity: 0;
+  cursor: pointer;
+}
+/* 显示上传文件夹名的Div */
+.show_head {
+  position: absolute;
+  width: 147px;
+  text-align: center;
+  height: 149px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #6a717c;
+  margin: 0;
+  overflow: hidden;
+}
+
+.show_head img {
+  width: 100%;
+  height: 100%;
+}
+/*上传*/
+.p_upload{
+  width: 817px;
+  margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.upload{
+    width: 325px;
+    height: 56px;
+    background: #f85162;
+    text-align: center;
+    line-height: 56px;
+    color: #fff;
+    font-size: 26px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+/*案例图片添加部分css*/
+.upload_img{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.file{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  cursor: pointer;
+  top: -50px;
+  opacity: 0;
+}
+.upload_img_Choice{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #ccc;
+  margin-top: 12px;
+  border-radius:8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+.upload_imgc_show{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 14px;
+  color: #666666;
+}
+.main_cont input[type="file"] {
+  border: none;
+}
+
+.main_file { 
+  border: 3px solid #ccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+
+/*自定义上传,位置大小都和a完全一样,而且完全透明*/
+.myFileUpload {
+  position: absolute;
+  top: -50px;
+  display: block;
+  opacity: 0;
+  cursor: pointer;
+}
+/*显示上传文件夹名的Div*/
+.show {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #6a717c;
+}
+
+.Upload {
+  width: 325px;
+  height: 56px;
+  background: #f85162;
+  text-align: center;
+  line-height: 56px;
+  color: #fff;
+  font-size: 26px;
+  margin: 0 auto 200px auto !important;
+  cursor: pointer;
+}
+
+/*--图片上传--*/
+.upload_img_Choice:hover{
+  border-color: #ccc;
+}
+.main_file_hide{
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  background: rgba(255,255,255,0.4);
+  position: absolute;
+  left: 0; bottom: -20px;
+  cursor: pointer;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.input_SCTP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.input_SCTP input {
+  padding: 0;
+}
+
+.input_SCTP > .main_file {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin:12px 5px 5px 0;
+}
+
+.input_SCTP > .main_file:hover .main_file_hide{
+  bottom:0;
+}
+
+.show > img {
+  width: 100%;
+  height: 100%;
+}
+/*添加案例视频*/
+.add_addr{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+.add_addr input{
+  display: block;
+  border:1px solid #e6e6e6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.add_addr_btn{
+  background-color: #f85162;
+  color: #fff;
+  padding:0 12px;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.upload_addr{
+  width: 450px;
+  height: auto;
+}
+.upload_addr li{
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 450px;
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.upload_addr li span{
+  display: block;
+  height: 20px;
+  width: 400px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #524c4c;
+  padding-left: 11px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.upload_addr li input{
+  display: block;
+  width: 90px;
+  height: 20px;
+  background-color: #f85162;
+  border: 1px solid #ccc;
+  color: #fff;
+  cursor: pointer;
+}
+/*人员简介*/
+.descSimple{
+  width: 490px;
+  height: 200px;
+  border:2px solid #ccc;
+  margin-top: 20px;
+}
+.desc{
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #666;
+  padding: 10px;
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+}

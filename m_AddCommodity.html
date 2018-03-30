@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>案例上传</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/hq/m_AddCommodity.css">
+	<link rel="stylesheet" href="css/hq/h_common.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 导航栏 -->
+		<div class="nav">
+		</div>
+
+		<!-- 头部 -->
+		<header>
+		</header>
+		<!-- 内容 -->
+		<div class="title">
+			<div class="title_box">
+				<!-- 标题 -->
+				<div class="title_cont">
+					<div class="title_left">
+						<i></i>
+						<p>案例上传</p>
+					</div>
+					<div class="title_right"></div>
+				</div>
+
+				<!-- 内容 -->
+				<div class="main">
+					<form id="uploadForm" enctype="multipart/form-data" method="post">
+						<!-- 用户名隐藏域 -->
+						<div class="hide">
+							<input type="text" name="username" class="username">
+						</div>
+						<!-- 案例名称 -->
+						<div class="input_shadow">
+							<p class="input_title">案例名称</p>
+							<div class="input_text_cont">
+								<i class="input_i"></i>
+								<input class="input_text" type="text" placeholder="案例名称不能超过20字" name="sname">
+							</div>
+						</div>
+						<!-- 案例风格 -->
+						<div class="input_style">
+							<p class="input_title">案例风格</p>
+							<ul class="input_style_cont">
+								<li class="input_style_x10"><p>西式案例</p></li>
+								<li><p>中式案例</p></li>
+								<li><p>森式案例</p></li>
+								<li><p>户外案例</p></li>
+								<li><p>教堂案例</p></li>
+							</ul>
+							<input type="text" class="hide" name="style">
+						</div>
+						<!-- 策划师 -->
+						<div class="input_shadow">
+							<p class="input_title">策划师</p>
+							<div class="input_text_cont">
+								<i class="input_i"></i>
+								<input class="input_text" type="text" placeholder="策划师名称" name="sperson">
+							</div>
+						</div>
+						<!-- 价格 -->
+						<div class="input_shadow">
+							<p class="input_title">价格</p>
+							<div class="input_text_cont">
+								<i class="input_i"></i>
+								<input class="input_text input_money" type="text" placeholder="价格单位（元）,最多输入小数点后两位" name="price">
+							</div>
+						</div>
+						<!-- 案例介绍 -->
+						<div class="input_brief">
+							<p class="input_title">案例介绍</p>
+							<div class="input_brief_cont">
+								<textarea placeholder="请将字数限制在(200字)以内" class="input_textarea desc" name="desc"></textarea>
+							</div>
+						</div>
+						<!-- 设计思路 -->
+						<div class="input_brief">
+							<p class="input_title">设计思路</p>
+							<div class="input_brief_cont">
+								<textarea placeholder="请将字数限制在(200字)以内" class="input_textarea design" name="design"></textarea>
+							</div>
+						</div>
+						<!-- 多图片上传 -->
+						<div class="images_box">
+							<!-- 主舞台 -->
+							<div class="upload_img">
+								<div class="input_title">主舞台</div>
+								<div class="input_SCTP" id="imgBox01"></div>
+								<div class="upload_img_Choice">
+									<div class="upload_imgc_show"><p>(最多选择5张)<br>选择图片</p></div>
+									<input type="file" class="file" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+								</div>
+							</div>
+							<!-- 礼道区 -->
+							<div class="upload_img">
+								<div class="input_title">礼道区</div>
+								<div class="input_SCTP" id="imgBox02"></div>
+								<div class="upload_img_Choice">
+									<div class="upload_imgc_show"><p>(最多选择5张)<br>选择图片</p></div>
+									<input type="file" class="file" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+								</div>
+							</div>
+							<!-- 签到区 -->
+							<div class="upload_img">
+								<div class="input_title">签到区</div>
+								<div class="input_SCTP" id="imgBox03"></div>
+								<div class="upload_img_Choice">
+									<div class="upload_imgc_show"><p>(最多选择5张)<br>选择图片</p></div>
+									<input type="file" class="file" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+								</div>
+							</div>
+							<!-- 合影区 -->
+							<div class="upload_img">
+								<div class="input_title">合影区</div>
+								<div class="input_SCTP" id="imgBox04"></div>
+								<div class="upload_img_Choice">
+									<div class="upload_imgc_show"><p>(最多选择5张)<br>选择图片</p></div>
+									<input type="file" class="file" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+								</div>
+							</div>
+							<!-- 甜品区 -->
+							<div class="upload_img">
+								<div class="input_title">甜品区</div>
+								<div class="input_SCTP" id="imgBox05"></div>
+								<div class="upload_img_Choice">
+									<div class="upload_imgc_show"><p>(最多选择5张)<br>选择图片</p></div>
+									<input type="file" class="file" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+								</div>
+							</div>
+						</div>
+					</form>
+					<!-- 上传按钮 -->
+					<div class="Upload">上传</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hq/h_common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/hq/gey.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/hq/m_AddCommodity.js"></script>
+	<script>
+		imgUpload({
+			uploadBox:'.upload_img',//索引大框
+			filebox:'.upload_img_Choice',//添加图片按钮class
+			inputId:'.file', //input框id
+			imgBox:['#imgBox01','#imgBox02','#imgBox03','#imgBox04','#imgBox05'], //图片容器id
+			data:['imgFiles1','imgFiles2','imgFiles3','imgFiles4','imgFiles5'], //参数名
+			num:['5','5','5','5','5'],//上传个数
+		})
+	</script>
+</body>
+</html>

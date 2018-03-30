@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>输入酒店信息</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/cm/c_mainHotel.css">
+</head>
+<body>
+	<div class="box">
+		<!-- nav -->
+		<div class="nav">
+			<div class="nav_top">商家后台</div>
+			<ul class="nav_cont">
+				<li>
+					<i></i>
+					<div class="nav_cont_a nav_cont_off person">
+						<a>人员审核</a>
+					</div>
+				</li>
+				<li>
+					<i></i>
+					<div class="nav_cont_a nav_cont_off merchant">
+						<a>用户基本资料审核</a>
+					</div>
+				</li>
+				<li>
+					<i></i>
+					<div class="nav_cont_a nav_cont_off  nav_cont_on hotel">
+						<a href="c_AboutHotelAdd.html">上传酒店信息</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- header -->
+		<div class="header">
+			<div class="Return_index">
+				<a href="addHotelMeg.html"><p>添加酒店信息</p></a>
+			</div>
+			<div class="header_name ">
+				<a href="index.html"><p>返回首页</p></a>
+			</div>
+			<div class="header_name">
+				<p>用户名：<span class="h_name"></span></p>
+			</div>
+			<div class="sign_out">
+				<p>退出登录</p>
+			</div>
+		</div>
+		<!-- content -->
+		<div class="content">
+			<div class="hotel_title">
+				<div>酒店名字</div>|
+				<div>酒店电话</div>|
+				<div>酒店地址</div>
+			</div>
+			<div class="hotel_detail_items">
+				<div class="hotel_detail_item">
+					<div title="成都喜来登大酒店">成都喜来登大酒店</div>
+					<div>028-123123123</div>	
+					<div title="成都青羊区人民中路一段15号">成都青羊区人民中路一段15号</div>	
+					<div class="buttons">
+						<div class="showbutton">编辑</div>
+						<div class="showbutton">删除</div>
+					</div>
+				</div>
+				<div class="hotel_detail_item">
+					<div title="成都喜来登大成都喜来登大酒店酒店">成都喜来登大成都喜来登大酒店酒店</div>
+					<div>028-123123123</div>	
+					<div title="成都青羊区人民中路一段15号成都喜来登大酒店">成都青羊区人民中路一段15号成都喜来登大酒店</div>	
+					<div class="buttons">
+						<div class="showbutton">编辑</div>
+						<div class="showbutton ">删除</div>
+					</div>
+				</div>
+			</div>
+			<!-- 分页条 -->
+			<div class="main_Pagination"></div>
+		</div>
+	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/cm/c_mainHotel.js"></script>
+	<script type="text/javascript" src="js/paging.js"></script>
+	<script>
+		// $('.main_Pagination').paging({
+  //           initPageNo: 1, // 初始页码
+  //           totalPages: 1, //总页数
+  //           totalCount: '合计' + 10 + '条数据', // 条目总数
+  //           slideSpeed: 600, // 缓动速度。单位毫秒
+  //           jump: true, //是否支持跳转
+  //           callback: function(page) {}
+  //       })
+	</script>
+</body>
+</html>

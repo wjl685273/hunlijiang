@@ -1,0 +1,236 @@
+/*------标题-------*/
+.title {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.title_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.title_left {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.title_right {
+  width: 610px;
+  height: 18px;
+  border-bottom: 1px solid #f1959f;
+}
+
+.title_left > i {
+  width: 3px;
+  height: 18px;
+  background: #eb5162;
+}
+
+.title_left > p {
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+.title_left span {
+  font-size: 12px;
+}
+
+/*----内容----*/
+
+.main {
+  width: 600px;
+  margin-left: auto;
+}
+
+/*间距调整*/
+.input_shadow,.input_drop,.input_SCTP,.input_img{
+  margin-bottom: 50px;
+}
+
+/*内容大框*/
+.input_shadow,.input_img{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 53px;
+}
+
+.input_drop{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 30px;
+}
+
+.input_SCTP{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 20px;
+}
+
+/*内容标题*/
+.input_title{
+  width: 20%;
+  font-size: 16px;
+  color: #6a717c;
+}
+
+/*i标签样式*/
+.input_i{
+  display: inline-block;
+  width: 9px;
+  height: 53px;
+  background: #f85162;
+}
+
+/*文本框*/
+.input_text_cont{
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0 5px #eee;
+          box-shadow: 0 0 5px #eee;
+}
+
+.input_select_cont{
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input_text{
+  width: 471px;
+  border: 1px solid #ededee;
+  border-left: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #6a717c;
+  font-size: 16px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.input_select{
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  margin-right: 10px;
+  color: #333;
+}
+
+.input_SCTP_cont{
+  width: 80%;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input_SCTP_cont > div{
+  margin-right: 50px;
+  font-size: 16px;
+  color: #6a717c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input_SCTP_cont i{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #666;
+  border-radius: 100%;
+  margin-right: 15px;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.input_SCTP_cont span{
+  display: block;
+  width: 12px;
+  height: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #666;
+  border-radius: 100%;
+}
+
+.input_file_cont{
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0 5px #eee;
+          box-shadow: 0 0 5px #eee;
+}
+
+.input_file{
+  position: relative;
+  width: 471px;
+  border: 1px solid #ededee;
+  border-left: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.myFileUpload{
+  width: 550px;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+  left: -80px;
+}
+
+.blueButton{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0 70px 0 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  -webkit-box-sizing: border-box; 
+          box-sizing: border-box;
+  color: #6a717c;
+  font-size: 16px;
+  background: url(../../images/h_Certification/h_file.png) no-repeat 430px center;
+}
+
+.off_License{
+  display: none;
+}
+
+/*上传按钮*/
+.Upload {
+  width: 325px;
+  height: 56px;
+  background: #f85162;
+  text-align: center;
+  line-height: 56px;
+  color: #fff;
+  font-size: 26px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 200px;
+}

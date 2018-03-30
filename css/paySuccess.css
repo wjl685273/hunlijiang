@@ -1,0 +1,36 @@
+/*内容*/
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main_cont{
+	width: 570px;
+	margin: 60px auto;
+}
+
+.main_title{
+	display: inline-block;
+	padding-left: 130px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	height: 100px;
+	line-height: 100px;
+	color: #333;
+	font-size: 36px;
+	background: url(../images/paySuccess.png) no-repeat;
+}
+
+.main_cont_info{
+	padding-left: 130px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 24px;
+	color: #999;
+	line-height: 40px;
+}
+
+.main_info_title{
+	display: inline-block;
+	width: 200px;
+}

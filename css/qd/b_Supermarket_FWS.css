@@ -1,0 +1,563 @@
+/*导航栏*/
+.main_nav{
+  width: 100%;
+  height: 35px;
+  background: #f85162;
+  line-height: 35px;
+  font-size: 16px;
+  color: #fff;
+  margin: 35px 0 60px 0;
+}
+
+
+.mian_nav_cont{
+  width: 1150px;
+  margin: 0 auto;
+}
+
+/*服务商信息*/
+.main_01 {
+  padding: 30px 0 40px 0;
+  background: #f4dddf;
+  margin-bottom: 40px;
+}
+
+.info {
+  width: 1150px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info_logo {
+  width: 220px;
+  height: 220px;
+  margin: 0 75px;
+}
+
+.info_logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.info_cont {
+  width: 660px;
+}
+
+.info_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+.info_user h1 {
+  font-size: 24px;
+  color: #333;
+  margin-right: 20px;
+}
+
+.info_user div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.info_user i {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background: url(../../images/b_Supermarket_WM/star_on.png) no-repeat;
+  margin-right: 4px;
+}
+
+.info_contact {
+  height: 20px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #999;
+  font-size: 14px;
+}
+
+.info_contact h2 {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  background: url(../../images/b_Supermarket_WM/cdt.png) no-repeat 0 center;
+  padding-left: 20px;
+  margin-right: 40px;
+}
+
+.info_but {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0;
+}
+
+.info_but > div {
+  width: 170px;
+  height: 55px;
+  border: 2px solid #f85162;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.info_but_01 {
+  background: #f85162;
+  color: #fff;
+}
+
+.info_but_01:active {
+  background: #fff;
+  color: #f85162;
+}
+
+.info_but_02 {
+  background: #fff;
+  color: #f85162;
+}
+
+.info_but_02:active {
+  background: #f85162;
+  color: #fff;
+}
+
+.info_amt {
+  padding-left: 20px;
+  height: 30px;
+  font-size: 12px;
+  color: #f7949e;
+  background: url(../../images/b_Supermarket_FWS/amt.png) no-repeat 0 5px;
+}
+
+/*内容*/
+.main {
+  width: 1150px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+/*服务商商品详情*/
+.main_left {
+  width: 830px;
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 55px;
+}
+
+/*详情导航栏*/
+.main_left_nav {
+  width: 100%;
+  height: 44px;
+  line-height: 42px;
+  background: #e6e6e6;
+  border-bottom: 1px solid #bdbdbd;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.main_left_nav p {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  color: #808080;
+}
+
+.main_left_nav_on {
+  background: #fff;
+}
+
+/*标题*/
+.main_left_title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.main_left_title i {
+  display: inline-block;
+  width: 233px;
+  height: 15px;
+  background: url(../../images/b_Supermarket_FWS/title_bg.png) no-repeat;
+}
+
+.main_left_title p {
+  font-size: 18px;
+  line-height: 18px;
+  color: #4c4c4c;
+  display: inline-block;
+  border-bottom: 3px solid #f85162;
+  padding-bottom: 15px;
+  margin: 0 70px;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+/*商家简介*/
+
+.main_left_01 {
+  width: 690px;
+  margin: 0 auto;
+}
+
+.main_left_01 p {
+  text-indent: 2em;
+  font-size: 12px;
+  color: #808080;
+  margin-bottom: 20px;
+}
+
+.main_left01_cont {
+  width: 100%;
+  height: 110px;
+  overflow: hidden;
+  position: relative;
+}
+
+.main_left01_cont img {
+  width: 100%;
+  height: 100%;
+}
+
+.main_left01_cont .swiper-wrapper {
+  height: 110px;
+}
+
+.main_left01_cont .swiper-wrapper:hover {
+  cursor: default;
+}
+
+.main_left01_cont .swiper-wrapper div {
+  height: 110px;
+  padding: 0 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+
+.main_left01_cont .swiper-button-prev,
+.main_left01_cont .swiper-button-next {
+  width: 25px;
+  height: 110px;
+  line-height: 110px;
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main_left01_cont .swiper-button-prev {
+  left: 0;
+  top: 0;
+}
+
+.main_left01_cont .swiper-button-next {
+  right: 0;
+  top: 0;
+}
+
+.main_left01_cont .swiper-button-prev img,
+.main_left01_cont .swiper-button-next img {
+  width: 12px;
+  height: 30px;
+}
+
+/*服务承诺*/
+.main_left02 {
+  width: 690px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main_left02 div {
+  width: 315px;
+  margin-bottom: 50px;
+  padding-left: 80px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main_left02 div h1 {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.main_left02 div p {
+  font-size: 12px;
+  color: #808080;
+}
+
+.main_left02_bg01 {
+  background: url(../../images/b_Supermarket_FWS/Pledge_01.png) no-repeat;
+}
+
+.main_left02_bg02 {
+  background: url(../../images/b_Supermarket_FWS/Pledge_02.png) no-repeat;
+}
+
+.main_left02_bg03 {
+  background: url(../../images/b_Supermarket_FWS/Pledge_03.png) no-repeat;
+}
+
+.main_left02_bg04 {
+  background: url(../../images/b_Supermarket_FWS/Pledge_04.png) no-repeat;
+}
+
+/*商家案例*/
+.main_left03 {
+  width: 690px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.main_left03 a {
+  width: 210px;
+  display: inline-block;
+  margin: 0 20px 20px 0;
+}
+
+.main_left03 a:hover {
+  text-decoration: none;
+}
+
+.main_left03 a > div > div {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.main_left03 a > div > div img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.main_left03 a > div > div > div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2px 10px;
+}
+
+.main_left03 a > div > div > div h1 {
+  font-size: 14px;
+  color: #f85162;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.main_left03 a > div > div > div p {
+  color: #333;
+}
+
+.main_left03 a > div > div > div span {
+  text-decoration: line-through;
+  color: #808080;
+  margin-left: 5px;
+}
+
+.main_left03 a > div > p {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  background: #f092aa;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.main_left03 a > div:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.main_left03_but {
+  width: 690px;
+  height: 30px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 30px;
+  text-align: center;
+  color: #f85162;
+  font-size: 12px;
+  border: 1px solid #d8d8d8;
+  background: #e6e6e6;
+  cursor: pointer;
+  letter-spacing: 6px;
+}
+
+.main_left03_but a {
+  color: #f85162;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.main_left03_but a:hover {
+  text-decoration: none;
+}
+
+.main_left03_but:active {
+  background: #d8d8d8;
+}
+
+/*/切换样式 */
+.main_left_cont > div {
+  margin-bottom: 60px;
+}
+
+/*推荐商家*/
+.main_right {
+  width: 270px;
+}
+
+.main_right a:hover {
+  text-decoration: none;
+}
+
+.main_right_title {
+  font-size: 24px;
+  color: #331114;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main_right_title i {
+  display: inline-block;
+  width: 3px;
+  height: 28px;
+  margin-right: 10px;
+  background: #f85162;
+}
+
+.main_right_cont > div {
+  border: 1px solid rgba(153,153,153,0.8);
+  margin-bottom: 30px;
+}
+
+.main_rcont_x10 {
+  height: 165px;
+  overflow: hidden;
+}
+
+.main_right_cont > div:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.main_rcont_x10 img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.main_rcont_x20 {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main_rcont_x20 h1 {
+  font-size: 14px;
+  line-height: 14px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+.main_rcont_x30{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_rcont_x40{
+  font-size: 16px;
+  color: #f85162;
+  height: 28px;
+  margin-right: 15px;
+}
+
+.main_rcont_x40 span{
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.main_rcont_x50{
+  color: #666;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.main_rcont_x50 span{
+  text-decoration: line-through;
+}

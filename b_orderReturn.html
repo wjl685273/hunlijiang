@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务超市</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/qd/b_orderReturn.css">
+	<link rel="stylesheet" href="css/tf_common.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 头部 -->
+		<header>
+		</header>
+		<!-- 内容 -->
+		<div class="container">
+			<form name=traderefund action=/refund method=post target="_blank">
+				<!-- 订单详情 -->
+				<div class="orderDetail">
+					<div class="o_price">
+						<span>退款金额 ：￥</span>
+						<input id="WIDTRrefund_amount" name="WIDTRrefund_amount"
+								readonly="readonly" value="200">
+					</div>
+					<div class="o_time_addr">
+						<div>
+							<span>商户订单号 ：</span>
+							<input id="WIDTRout_trade_no" name="WIDTRout_trade_no"
+								readonly="readonly">
+						</div>
+						<div>
+							<span>支付宝交易号 ：</span>
+							<input id="WIDTRtrade_no" name="WIDTRtrade_no" readonly="readonly">
+						</div>
+						<div>
+							<span>退款原因 ：</span>
+							<input id="WIDTRrefund_reason" name="WIDTRrefund_reason" readonly="readonly">
+						</div>
+						<div>
+							<span>退款请求号 ：</span>
+							<input id="WIDTRout_request_no" name="WIDTRout_request_no" readonly="readonly">
+						</div>
+					</div>
+				</div>
+				<!-- 选择支付方式 -->
+				<!-- <div class="choosePayWay">
+					<div class="checked">
+						<p class="input_on"><span></span></p>
+						<h1>支付宝支付</h1>
+					</div>
+					<div class="payingBaby">
+						<p class="input_on"><span></span></p>
+					</div>
+				</div> -->
+				<!-- 支付按钮 -->
+				<center><button  type="submit" class="payButton">立即退款</button></center>
+				
+			</form>
+		</div>
+		<!-- 底部 -->
+		<footer>
+		</footer>		
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/tf_common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/paging.js"></script>
+	<script type="text/javascript" src="js/qd/b_orderReturn.js"></script>
+</body>
+</html>

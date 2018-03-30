@@ -1,0 +1,360 @@
+/*----内容----*/
+
+.container {
+  width: 1130px;
+  margin-left: auto;
+  margin-top:30px;
+}
+
+.foucus_title{
+  width: 1130px;
+  min-height: 200px;
+  background: url(../../images/b_Foucus/foucus.png) no-repeat 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*title左边*/
+.title_left{
+  margin-left:135px;
+  display: flex;
+  align-items: center;
+}
+.foucus_pic{
+  width: 110px;
+  height: 110px;
+  border-radius:50%;
+  border:1px solid #9e9b9c;
+  position:relative;
+}
+.foucus_pic div{
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.aboutme{
+  margin-left:30px;
+  font-size: 16px;
+}
+.mytype{
+  width: 150px;
+  height: 26px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  color: #999;
+  background: url(../../images/b_Foucus/type.png) no-repeat 0 0;
+}
+.myname{
+  margin-top:10px;
+}
+/*title右边*/
+.title_right{
+  margin-right:135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #999;
+  width: 300px;
+}
+.title_right h3{
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+/*parttwo*/
+.choose_nav{
+  width: 100%;
+  height: 60px;
+  margin-top: 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.choose_nav ul{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.choose_nav_li{
+  margin-left: 100px;
+  display: inline-block;
+  padding:18px;
+  cursor: pointer;
+}
+.choose_nav_li:hover{
+  color: #f85162;
+  border-bottom:3px solid #f85162;
+  transition: .15s;
+}
+/*选中状态*/
+.check_on{
+  color: #f85162;
+  border-bottom:3px solid #f85162;
+}
+.nav_border{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+.f_searching{
+  width: 209px;
+  height: 34px;
+  border:1px solid #666;
+  border-radius: 27px;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  background: url(../../images/b_Foucus/search.png) no-repeat 95% 50%;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+.searching{
+  width: 151px;
+  height: 32px;
+  border:none;
+  color: #666;
+}
+.searching_button{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+/*partthree*/
+.foucus_content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.foucus_content >a >div{
+  width: 350px;
+  border:1px solid #e5e5e5;
+  margin-top:50px;
+  margin-right: 22px;
+}
+/*人员*/
+.foucus_content_item{
+  width: 350px;
+  height: 230px;
+  border:1px solid #e5e5e5;
+  margin-top:50px;
+  margin-right: 22px;
+  box-sizing: border-box;
+}
+.foucus_content .foucus_head{
+  width: 110px;
+  height: 110px;
+  border-radius:50%;
+  margin:0 auto;
+  margin-top: 18px;
+  position:relative;
+  border:1px solid transparent;
+  box-sizing: border-box;
+}
+.foucus_content .foucus_head .pic{
+    width: 100px;
+    height: 100px;
+    border:1px solid #e5e5e5;
+    border-radius:50%;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.foucus_content .foucus_head .foucus_who{
+    position:absolute;
+    top:128px;
+    color: #666;
+    font-size: 14px;
+}
+.red i{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+  background: url(../../images/b_Supermarket_WM/star_on.png) no-repeat;
+}
+.gray i{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+   background:url(../../images/b_Addorder/star.png) no-repeat; 
+  /*background: url(../../images/b_Supermarket_WM/star_on.png) no-repeat !important;*/
+}
+.foucus_who p{
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.foucus_content_item:hover{
+  border-color:#f85162;
+  background: url(../../images/b_Foucus/heart.png) no-repeat  90% 10%;
+}
+.foucus_content_item:hover .foucus_head{
+    border:1px solid #f85162;
+    box-sizing: border-box;
+}
+
+.foucus_content_item:hover .foucus_who p{
+  color: #f85162 ;
+}
+.foucus_content_item:hover .gray i{
+  background: url(../../images/b_Supermarket_WM/star_on.png) no-repeat !important;
+}
+
+/*舞美道具*/
+.danceTools{
+  width: 350px;
+  height: 359px;
+  cursor: pointer;
+}
+.danceTools_img{
+  height: 234px;
+  width: 100%;
+}
+.danceTools_img img{
+    margin-left: 86%;
+    margin-top: 57%;
+    opacity:0;
+}
+.danceTools_detail{
+  margin-top:25px;
+  width: 100%;
+  height: 81px;
+  padding-left: 17px;
+  box-sizing: border-box;
+}
+.d_name{
+  font-size: 16px;
+  color: #666;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.d_type{
+  font-size: 14px;
+  color: #999;
+  margin-top: 12px;
+}
+.d_star{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 17px;
+  box-sizing: border-box;
+}
+/*移入效果*/
+.danceTools:hover{
+  border:1px solid #f85162;
+}
+.danceTools:hover .d_name{
+  color: #f85162;
+}
+.danceTools:hover .d_type{
+  color: #f85162;
+}
+.danceTools:hover .gray i{
+  background: url(../../images/b_Supermarket_WM/star_on.png) no-repeat !important;
+}
+.danceTools:hover .danceTools_img img{
+  opacity:1;
+}
+/*策划案例*/
+.case:hover .danceTools_detail{
+   background: url(../../images/b_Foucus/heart.png) no-repeat  90% 10%;
+}
+/*分页*/
+.fl {
+  float: left;
+}
+.main_Pagination {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main_Pagination button {
+  padding: 0 10px;
+  margin: 0 10px;
+  height: 40px;
+  float: left;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+}
+.main_Pagination .first-page,
+.main_Pagination .last-page {
+  margin: 0;
+}
+.main_Pagination .pageWrap {
+  height: 40px;
+  float: left;
+  overflow: hidden;
+}
+.main_Pagination .pageWrap ul {
+  width: 100000px;
+  height: 40px;
+  float: left;
+}
+.main_Pagination .pageWrap ul li {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #ebebeb;
+  line-height: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  float: left;
+  background: #fff;
+}
+.main_Pagination .pageWrap ul .sel-page {
+  background-color: #f85162;
+  color: #fff;
+}
+.main_Pagination .jump-text {
+  width: 60px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 5px;
+  float: left;
+}
+.main_Pagination .jump-button {
+  margin: 0;
+  float: left;
+}
+.main_Pagination .total-pages,
+.main_Pagination .total-count {
+  margin-left: 10px;
+  float: left;
+  font-size: 14px;
+}
+
+/*a标签*/
+a:hover{
+  text-decoration: none;
+}

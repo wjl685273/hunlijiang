@@ -1,0 +1,584 @@
+/*-----头部----*/
+.header{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.header_cont{
+  background: #f85162;
+  width: 1200px;
+  margin: 0 auto;
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header_cont > div {
+  padding: 0 35px;
+  height: 16px;
+  line-height: 16px;
+  color: #fff;
+  font-size: 12px;
+  border-left: 1px solid #fff;
+}
+
+.Return_index a,.sign_out p{
+  color: #fff;
+}
+.header_name a{
+  color: #fff;
+}
+.sign_out p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Return_index{
+  border: none !important;
+}
+
+/*main*/
+.main{
+  width: 770px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+.main_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.main_header h1{
+  font-size: 14px;
+  line-height: 18px;
+  border-left: 3px solid #eb5162;
+  padding-left: 5px;
+}
+
+.main_header i{
+  display: inline-block;
+  width: 610px;
+  height: 18px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eb5162;
+}
+
+.main_cont{
+  width: 610px;
+  margin-left: auto;
+}
+
+.main_box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_box h2{
+  width: 110px;
+  line-height: 53px;
+  font-size: 16px;
+  color: #666;
+  font-weight: normal;
+}
+
+.main_box_x10{
+  border-left: 9px solid #f85162;
+  width: 500px;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+}
+
+.main_box_x20{
+  width: 100%;
+  border: 1px solid #ededee;
+  border-left: none;
+  box-sizing: border-box;
+}
+
+.input_text{
+  width: 100%;
+  min-height: 51px;
+  font-size: 14px;
+  color: #666;
+  line-height: 51px;
+  border: none;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.input_textarea{
+  width: 100%;
+  min-height: 120px;
+  box-sizing: border-box;
+  border: none;
+  padding:15px;
+  font-size: 14px;
+  color: #666;
+  line-height: 18px;
+}
+
+.main_box_x30{
+  width: 500px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.main_box_x30 li{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #4c4c4c;
+  margin-right: 30px;
+}
+
+.main_box_x30 li span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 1px solid #4c4c4c;
+  margin-right: 12px;
+}
+
+.main_box_x30 li span i{
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.main_box_x30_on i{
+  background: #4c4c4c;
+}
+
+.policy,.facilities{
+  padding: 15px 0;
+}
+
+.policy li,.facilities li{
+  display: flex;
+  padding: 13px;
+  font-size: 14px;
+}
+
+.policy li p{
+  width: 180px;
+}
+
+.facilities li p{
+  width: 80px;
+}
+
+.policy li input,.facilities li input{
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.policy li input{
+  width: 260px;
+}
+
+.facilities li input{
+  width: 360px;
+}
+
+.main_HallInfo{
+  width: 100%;
+  border: 1px solid #ededee;
+  border-left: none;
+  box-sizing: border-box;
+  height: 53px;
+  line-height: 51px;
+  font-size: 14px;
+  color: #666;
+  padding-left: 15px;
+  cursor: pointer;
+  background: url(../../images/c_AboutHotelAdd/c_AboutHotelAdd_img.png) no-repeat 450px center;
+}
+
+.main_but{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.main_but button{
+  width: 250px;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  background: #f85162;
+  border: none;
+}
+
+.main_but button:active{
+  opacity: 0.9;
+}
+
+/*上传图片预览框*/
+.images_box {
+  width: 500px;
+  margin-bottom: 35px;
+}
+
+.input_SCTP,
+.upload_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.main_file {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-right: 15px;
+  position: relative;
+  border: 1px dashed #999;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.show {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.show img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main_file_hide {
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  bottom: -25px;
+  left: 0;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  line-height: 25px;
+  color: #333;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.main_file:hover .main_file_hide {
+  bottom: 0;
+}
+/*图片上传*/
+.upload_img_Choice {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed #999;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.upload_imgc_show {
+  width: 100%;
+  height: 100%;
+  background: url(../../images/Posttask_img.png) no-repeat center 10px;
+  background-size: 40px 40px;
+}
+
+.upload_imgc_show p {
+  padding-top: 55px;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.upload_img_Choice input {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+/*大厅信息*/
+.HallInfo{
+  width: 500px;
+  margin-left: auto;
+}
+
+.HallInfo > li{
+  height: 53px;
+  border-left: 9px solid #f85162;
+  width: 500px;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+}
+
+.HallInfo_cont{
+  height: 53px;
+  border: 1px solid #ededee;
+  border-left: none;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: #333;
+}
+
+.HallInfo_cont h2{
+  width: 350px;
+  font-size: 14px;
+  color: #333;
+  align-self: center;
+}
+
+.HallInfo_but{
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  transition: 0.15s;
+}
+
+.HallInfo_but button{
+  border: none;
+  background: #fff;
+}
+
+.HallInfo_but button:hover{
+  text-decoration: underline;
+}
+
+.HallInfo li:hover .HallInfo_but{
+  opacity: 1;
+}
+
+/*添加大厅详情*/
+.HallInfo_bg{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0; left: 0;
+  z-index: 88;
+  background: rgba(0,0,0,0.2);
+}
+
+.HallInfo_bg_cont{
+  position: fixed;
+  width: 920px;
+  background: #fff;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.HallInfo_bg_header{
+  height: 50px;
+  background: #f85162;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 40px;
+  box-sizing: border-box;
+}
+
+.HallInfo_bg_header h2{
+  font-size: 22px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.HallInfo_bg_Close{
+  background: url(../../images/xx.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.HallInfo_bg_x10{
+  width: 720px;
+  padding: 35px 0;
+  margin: 0 auto;
+}
+
+.HallInfo_bg_x20{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.HallInfo_bg_x20 h3{
+  width: 100px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+  color: #333;
+}
+
+.HallInfo_bg_x20_input{
+  width: 620px;
+  border: none;
+  padding: 0 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-bottom: 1px solid #333;
+}
+
+.HallInfo_bg_x20_textarea{
+  width: 620px;
+  height: 150px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 18px;
+  border: 1px solid #666;
+}
+
+.HallInfo_bg_images_box{
+  width: 620px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.HallInfo_bg_images_box li{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border: 1px dashed #666;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.HallInfo_bg_images_box li:hover .HallInfo_imgc_delete{
+  bottom: 0;
+}
+
+.HallInfo_imgc_Prompt{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/Posttask_img.png) no-repeat center 12px;
+  background-size: 50px;
+}
+
+.HallInfo_imgc_Prompt p{
+  padding-top: 70px;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.HallInfo_bg_images_box li input{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: -50px; left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.HallInfo_imgc_show{
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.HallInfo_imgc_show img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.HallInfo_imgc_delete{
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+  background: rgba(255,255,255,0.5);
+  bottom : -30px; left: 0;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.HallInfo_img_describe{
+  width: 620px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HallInfo_img_describe input{
+  width: 120px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid #333;
+  text-align: center;
+}
+/*按钮*/
+.HallInfo_bg_x30{
+  display: flex;
+  align-items: center;
+}
+
+.HallInfo_bg_x30 button{
+  width: 80px;
+  height: 30px;
+  border: none;
+  margin-right: 50px;
+}
+
+.HallInfo_bg_but01{
+  background: #f85162;
+  color: #fff;
+}
+
+.HallInfo_bg_but02{
+  background: #ccc;
+  color: #333;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>编辑商品</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/hq/h_management_edit.css">
+	<link rel="stylesheet" href="css/hq/h_common.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 导航栏 -->
+		<div class="nav">
+		</div>
+		<!-- 头部 -->
+		<header>
+		</header>
+		<!-- 内容 -->
+		<div class="title">
+			<div class="title_cont">
+				<div class="title_left">
+					<i></i>
+					<p>编辑商品</p>
+				</div>
+				<div class="title_right"></div>
+			</div>
+
+			<div class="main">
+				<div class="main_left">
+					<p>商品名称</p>
+					<p>商品尺寸</p>
+					<p>商品属性</p>
+					<p>商品原价</p>
+					<p>商品折扣价</p>
+					<p>库存</p>
+					<p>商品详情</p>
+					<p class="main_left_p">商品图片</p>
+				</div>
+				<div class="main_cont">
+					<form id="uploadForm" enctype="multipart/form-data" method="post">
+						<!-- 商品名称 -->
+						<div class="input_shadow">
+							<i class="main_bian"></i>
+							<input name="pname" type="text">
+						</div>
+						<!-- 商品尺寸 -->
+						<div class="input_Drop">
+							<span>尺寸：长(米)</span>
+							<input type="text" name="height" class="input_Num">
+							<span>宽(米)</span>
+							<input type="text" name="width" class="input_Num">
+							<span>高(米)</span>
+							<input type="text" name="length" class="input_Num">
+						</div>
+						<!-- 商品颜色 -->
+						<div class="input_Drop input_color">
+							<p>颜色</p>
+							<p><input class="color_01" type="checkbox" value="白色">白色</p>
+							<p><input class="color_02" type="checkbox" value="红色">红色</p>
+							<p><input class="color_03" type="checkbox" value="粉色">粉色</p>
+							<p><input class="color_04" type="checkbox" value="蓝色">蓝色</p>
+							<p><input class="color_04" type="checkbox" value="绿色">绿色</p>
+							<p><input class="color_04" type="checkbox" value="黄色">黄色</p>
+							<p><input class="color_04" type="checkbox" value="咖啡色">咖啡色</p>
+							<p><input class="input_Attributes hide" type="text" name="property"></p>
+						</div>
+						<!-- 商品原价 -->
+						<div class="input_Doot">
+							<input name="price" type="text" class="input_Num"><p>元</p>
+						</div>
+						<!-- 商品折扣价 -->
+						<div class="input_Doot">
+							<input name="dis_price" type="text" class="input_Num"><p>元</p>
+						</div>
+						<!-- 商品数量 -->
+						<div class="input_Doot">
+							<input name="number" type="text" class="input_Num"><p>件</p>
+						</div>
+						<!-- 商品描述 -->
+						<div class="input_textarea">
+							<textarea name="pdesc" placeholder="请输入商品描述（最多输入200字）"></textarea>
+						</div>
+						<!-- 多图片上传 -->
+						<div class="images_box">
+							<!-- 主舞台 -->
+							<div class="upload_img">
+								<div class="input_SCTP" id="imgBox01"></div>
+								<div class="upload_img_Choice">
+									<div class="upload_imgc_show"><p>(最多选择5张)<br>选择图片</p></div>
+									<input type="file" class="file" multiple accept="image/png,image/jpg,image/gif,image/JPEG">
+								</div>
+							</div>
+						</div>
+						<!-- 用户名隐藏域 -->
+						<div class="hide">
+							<input type="text" name="pid" id="username">
+							<input type="text" name="productImg" id="productImg">
+						</div>
+					</form>
+					<div class="Upload">确定修改</div>
+				</div>	
+			</div>
+
+		</div>
+	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hq/h_common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/hq/gey.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/hq/h_management_edit.js"></script>
+	<script>
+		imgUpload({
+			uploadBox:'.upload_img',//索引大框
+			filebox:'.upload_img_Choice',//添加图片按钮class
+			inputId:'.file', //input框id
+			imgBox:['#imgBox01'], //图片容器id
+			data:['imgFiles'], //参数名
+			num:['5'],//上传个数
+		})
+	</script>
+</body>
+</html>

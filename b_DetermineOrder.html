@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>确认订单信息</title>
+	<link rel="shortcut icon" href="images/index_Avatar.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+	<link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/tf_common.css">
+	<link rel="stylesheet" href="css/qd/b_DetermineOrder.css">
+</head>
+<body>
+	<div class="box">
+		<!-- 头部 -->
+		<header>
+		</header>
+		<!-- 内容 -->
+		<div class="main">
+			<!-- 地址选择 -->
+			<div class="main01">
+				<div class="main_title"><p>地址选择</p></div>
+				<div class="DOrder_order">
+					<p class="DOrder_Prompt">温馨提示：收件人请使用和身份证相对应的真实姓名</p>
+					<!-- 姓名 -->
+					<div class="DOrder_input">
+						<div class="DOrder_left">收件人：<span>*</span></div>
+						<div class="DOrder_right">
+							<input type="text" class="DOrder_input_x10" placeholder="请使用真实姓名" maxlength="6">
+						</div>
+					</div>
+					<!-- 收货地址 -->
+					<div class="DOrder_input">
+						<div class="DOrder_left">收货地址：<span>*</span></div>
+						<div class="DOrder_right">
+							<div class="DOrder_right_cont">
+								<p>
+									<span class="address_x10">四川省</span>
+									<i></i>
+								</p>
+								<div>
+									<ul>
+										<li class="address_on">四川省</li>
+									</ul>
+								</div>
+							</div>
+							<div class="DOrder_right_cont">
+								<p>
+									<span class="address_x20">成都市</span>
+									<i></i>
+								</p>
+								<div>
+									<ul>
+										<li class="address_on">成都市</li>
+									</ul>
+								</div>	
+							</div>
+							<div class="DOrder_right_cont">
+								<p>
+									<span class="address_x30">金牛区</span>
+									<i></i>
+								</p>
+								<div>
+									<ul class="address_ul">
+										<li class="address_on">金牛区</li>
+										<li>锦江区</li>
+										<li>青羊区</li>
+										<li>武侯区</li>
+										<li>成华区</li>
+										<li>新都区</li>
+										<li>温江区</li>
+										<li>双流区</li>
+										<li>郫县区</li>
+										<li>金堂县</li>
+										<li>大邑县</li>
+										<li>浦江县</li>
+										<li>新津县</li>
+										<li>都江堰</li>
+										<li>龙泉驿区</li>
+										<li>青白江区</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 详细地址 -->
+					<div class="DOrder_input">
+						<div class="DOrder_left">详细地址：<span>*</span></div>
+						<div class="DOrder_right">
+							<input type="text" class="DOrder_input_x20" placeholder="请填写详细地址，不少于三个汉字，不能全是数字/字母" maxlength="20">
+						</div>
+					</div>
+					<!-- 联系电话 -->
+					<div class="DOrder_input">
+						<div class="DOrder_left">手机号码：<span>*</span></div>
+						<div class="DOrder_right">
+							<input type="text" class="DOrder_input_x30" placeholder="请输入11位手机号" maxlength="11">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 使用日期 -->
+			<div class="main02">
+				<div class="main_title"><p>使用日期</p></div>
+				<div class="main02_cont">
+					<div class='input-group date' id='datetimepicker6'>
+						<span class="input-group-addon">开始使用日期：</span>
+			            <input type='text' class="form-control">
+			            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+			            </span>
+			        </div>
+			        <div class='input-group date' id='datetimepicker7'>
+			        	<span class="input-group-addon">结束使用日期：</span>
+	                    <input type='text' class="form-control">
+	                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+	                    </span>
+	                </div>
+	                <div class="main02_Remarks_box">
+	                	<span>备注：</span>
+	                	<textarea class="main02_Remarks" maxlength="150" placeholder="最多输入150个字符"></textarea>
+	                </div>
+				</div>
+			</div>
+			<!-- 商品清单 -->
+			<div class="main03">
+				<div class="main_title">
+					<p>商品清单</p>
+					<p class="main_title_x10">
+						<span>数量</span>
+						<span>价格</span>
+					</p>
+				</div>
+				<ul class="main03_cont">
+					<!-- <li>
+						<div class="main03_cont_x10">
+							<img src="images/index/planning_case_pic04.png">
+							<div class="main03_cont_user">
+								<p class="main03_user_x10">【限时特惠】澳大利亚原装进口蕾丝雕花挂件</p>
+								<p class="main03_user_x20">
+									<span>库存：40</span>
+									<span>销量：40</span>
+								</p>
+							</div>
+						</div>
+						<div class="main03_cont_x20">
+							<div class="main03_cont_x30">
+								<button class="but_01">—</button><input value="0" type="text"><button class="but_02">+</button>
+							</div>
+							<div class="main03_cont_x40">￥3000</div>
+						</div>
+					</li> -->
+				</ul>
+			</div>
+			<!-- 确认交易 -->
+			<div class="main04">
+				<p class="main04_x10">共<span>0</span>件</p>
+				<p class="main04_x20">应付：<span>￥0</span></p>
+				<button class="main04_but">确认交易</button>
+			</div>
+		</div>
+		<!-- 交纳押金 -->
+		<div class="deposit">
+			<div class="deposit_cont">
+				<div class="deposit_title">缴纳押金<span></span></div>
+				<div class="deposit_info">
+					<p class="deposit_info_x10">已缴纳<span>￥0</span>元</p>
+					<p class="deposit_info_x20">还需支付保证金<em>￥</em><span>0</span>元</p>
+					<button class="deposit_but">确认支付</button>
+				</div>
+				<div class="deposit_footer">
+					<p>为什么要交保证金？</p>
+					<p class="deposit_footer_on">押金缴纳旨在保障服务质量，减少服务失信行为。共同构建良好的婚嫁行业交易环境！</p>
+					<p>押金何时可退？</p>
+					<p class="deposit_footer_on">押金缴纳为双向押金缴纳，由第三方平台托管。订单完成后可随时退款，即时到帐。</p>
+					<p>押金计算方式。</p>
+					<p class="deposit_footer_on">押金缴纳金额按每笔订单金额的15%缴纳。</p>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<footer>
+		</footer>
+		<div id="container"></div>	
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/tf_common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/qd/b_DetermineOrder.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
+	<!-- bootstrap -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/bootstrap-datetimepicker.js"></script>
+	<script type="text/javascript">
+        $(function () {
+            $('#datetimepicker6').datetimepicker({
+                locale: 'zh-cn',
+                format:"YYYY-MM-DD HH:mm"
+            });
+            $('#datetimepicker7').datetimepicker({
+                locale: 'zh-cn',
+                format:"YYYY-MM-DD HH:mm"
+            });
+            $("#datetimepicker6").on("dp.change",function (e) {
+                $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+            });
+            $("#datetimepicker7").on("dp.change",function (e) {
+                $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+            });
+        });
+    </script>
+</body>
+</html>
